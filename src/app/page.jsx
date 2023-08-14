@@ -22,6 +22,14 @@ import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
 import HomepageHero from '@/components/HomePageHero'
 
+export const metadata = {
+  title: {
+    template: 'Dominik Stein - Web Development und SEO-Experte.',
+    default:
+      'Web-Design vom SEO-Experten. 8 Jahre Erfahrung in der Suchmaschinenoptimierung und neueste Technologien helfen dir bei deinem Ranking!',
+  },
+}
+
 function MailIcon(props) {
   return (
     <svg

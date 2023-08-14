@@ -6,13 +6,6 @@ import { Analytics } from '@vercel/analytics/react';
 import '@/styles/tailwind.css'
 
 export const metadata = {
-  title: {
-    template: 'Dominik Stein - Web Development und SEO-Experte.',
-    default:
-      'Web-Design vom SEO-Experten. 8 Jahre Erfahrung in der Suchmaschinenoptimierung und neueste Technologien helfen dir bei deinem Ranking!',
-  },
-  description:
-    'Web-Design vom SEO-Experten. 8 Jahre Erfahrung in der Suchmaschinenoptimierung und neueste Technologien helfen dir bei deinem Ranking!',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
