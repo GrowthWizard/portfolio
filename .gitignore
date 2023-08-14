@@ -1,0 +1,11 @@
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.next
+
+# Local env variables
+.env.local
+
+# Tailwind Licensing File
+LICENSE.md
