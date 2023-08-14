@@ -1,0 +1,347 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import Header from './images/yoast-seo-tutorial.jpeg'
+import ImgOne from './images/1-install-yoast-seo.gif'
+import ImgTwo from './images/2-yoast-seo-allgemein.png'
+import ImgThree from './images/3-yoast-seo-funktionen.png'
+import ImgFour from './images/4-crawl-einstellungen.png'
+import ImgFive from './images/5-yoast-integrationen.png'
+import ImgSix from './images/6-darstellung-suche-yoast.png'
+import ImgSeven from './images/8-serp-trennzeichen.png'
+import ImgEight from './images/7-Knowledge-Graph.png'
+import ImgNine from './images/10-yoast-inhaltstypen.png'
+import ImgTen from './images/11-yoast-medien.png'
+import ImgEleven from './images/12-taxonomien-yoast.png'
+import ImgTwelve from './images/13-yoast-archiv.png'
+import ImgThirteen from './images/16-beispiel-breadcrumb.png'
+import ImgFourteen from './images/17-breadcrumb-serps.png'
+import ImgFifteen from './images/14-yoast-breadcrumbs.png'
+import ImgSixteen from './images/15-yoast-rss.png'
+import ImgSeventeen from './images/18-beispiel-rss-feed.png'
+import ImgEightteen from './images/19-yoast-persoenlich-social.png'
+import ImgNineteen from './images/20-social-media-yoast-user.png'
+import ImgTwenty from './images/21-social-media-unternehmen.png'
+import ImgTwentyOne from './images/22-yoast-facebook.png'
+import ImgTwentyTwo from './images/23-yoast-twitter.png'
+import ImgTwentyThree from './images/24-yoast-pinterest.png'
+import ImgTwentyFour from './images/25-yoast-datei-editor.png'
+import ImgTwentyFive from './images/26-yoast-robots-txt.png'
+import ImgTwentySix from './images/28-yoast-xml-sitemap.png'
+import ImgTwentySeven from './images/27-search-console-sitemap.png'
+
+
+
+export const article = {
+  author: 'Dominik Stein',
+  date: '2023-01-06',
+  title: 'Das ultimative Yoast SEO Tutorial für 2023!',
+  description:
+    'Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von Yoast SEO. Yoast ist ein mächtiges und stabiles Plugin. Wenn es richtig konfiguriert ist. Deswegen möchten wir dir mit diesem kostenlosen Yoast SEO Tutorial helfen, dein SEO-Plugin richtig für Suchmaschinen in 2023 zu konfigurieren!',
+}
+
+export const metadata = {
+  title: 'Das ultimative Yoast SEO Tutorial für 2023 | steindominik.de',
+  description: 'Einfach und verständlich: Mein Yoast SEO-Tutorial bringt deinen Blog in 2023 auf die nächste Stufe der Suchmaschinenoptimierung!',
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von Yoast SEO. Yoast ist ein mächtiges und stabiles Plugin. Wenn es richtig konfiguriert ist. Deswegen möchten wir dir mit diesem kostenlosen Yoast SEO Tutorial helfen, dein SEO-Plugin richtig für Suchmaschinen in 2023 zu konfigurieren!
+
+<Image src={Header} alt="Header: Das ultimative Yoast SEO Tutorial für 2023" />
+
+## Vorwort: Bevor du mit dem Tutorial startest
+
+Ich möchte dass du Erfolg mit deiner Webseite hast! Die folgenden 3 Hinweise sind wichtig, und können den Erfolg deiner Webseite entscheidend beeinflussen.
+
+### Wie kann Yoast SEO meiner Webseite helfen?
+
+Ein Plugin zur Suchmaschinenoptimierung ist für den Erfolg mit WordPress unverzichtbar. Zwar ist WordPress von Installation aus bereits sehr suchmaschinenfreundlich, allerdings gibt es kleine Stellschrauben die stets verbessert werden können.
+
+Hier kommt das Yoast SEO Plugin ins Spiel und übernimmt zusätzliche Funktionen wie das Generieren einer Sitemap oder stellt Structured Data bereit, um den Kontext deiner Webseite für Suchmaschinen verständlicher zu machen. 
+
+Tipp: Was ist Structured Data? Structured Data ist für den Besucher nicht ersichtlicher Code, der Suchmaschinen weitere Informationen über Elemente (Überschriften, Bilder etc.) bereitstellt. 
+
+Du fragst dich sicherlich warum du dieses Tutorial benötigst. Der Grund ist einfach: Jede Webseite ist verschieden und hat eine andere Struktur. Außerdem konfiguriert sich Yoast SEO nicht selbst. 
+
+### Yoast SEO oder RankMath - wähle das richtige Plugin!
+
+Bevor du deine wertvolle Zeit in dieses Tutorial investierst, solltest du einen Blick in diesen Artikel vom RaidBoxes Magazin durchlesen: "[Yoast SEO vs RankMath - WordPress SEO Plugins im Vergleich!](https://raidboxes.io/blog/online-marketing/wordpress-seo-plugins/)". Hier habe ich beide Plugins miteinander verglichen und bin zu dem Schluss gekommen, dass RankMath für die meisten Nutzer, das bessere Plugin im Jahr 2023 ist!
+
+### Ein Letzter Hinweis: Reicht ein SEO-Plugin für die Optimierung meiner Webseite aus?
+
+Viele Betreiber einer Webseite installieren SEO-Plugins und erwarten daraufhin, dass sie sofort in den Top-Rankings mitspielen. Wäre es so einfach, dann wäre ich in den letzten 10 Jahren arbeitslos gewesen. Suchmaschinenoptimierung ist so viel umfangreicher. Ein SEO-Plugin übernimmt nur die Kommunikation mit den Crawlern. Sagt welche Inhalte indexiert werden dürfen. Stellt struktuierte Daten bereit. Auf folgende SEO-Buzz Words hat ein SEO-Plugin keinen Einfluss: "Content, Backlinks, YMYL & E.A.T. , PageSpeed, interne Verlinkung". 
+
+Das klingt zwar nach viel, aber die gute Nachricht ist: 50% deines Erfolges wird nur von deinem Inhalt & [Keyword-Recherche bestimmt!](https://raidboxes.io/blog/online-marketing/keyword-research/) Das ist die wichtigste Metrik in der Suchmaschinenoptimierung. Alles weitere spielt nur eine Rolle, wenn du dich in einer Nische mit sehr starker Konkurrenz befindest. Wenn du Unterstützung bei der Konfiguration oder Optimierung deiner Webseite benötigst, [kannst du mich auch gerne beauftragen](/seo).
+
+## Yoast SEO Tutorial: Die richtige Konfiguration
+
+Für dieses Tutorial verwende ich Yoast Version 19.13 in der Premium Variante. Verwendest du die kostenlose Variante, überspringe Features einfach, auf die du kein Zugriff hast.
+
+### Yoast SEO installieren
+
+Die Installation ist simpel. Wie bei jedem anderen Plugin auch, rufst du in deinem WordPress Dashboard den Reiter Plugins auf. Unter Plugins installieren tippst du in der Suche Yoast SEO ein. Ein weiterer Klick auf Installieren und du kannst Yoast SEO auf deiner WordPress Webseite verwenden.
+
+Solltest du das SEO Plugin bereits installiert haben, dann stelle bitte sicher die aktuellste Version zu verwenden & zu aktivieren!
+
+<Image src={ImgOne} alt="Yoast SEO installieren, .gif Anleitung" />
+
+### Das Yoast SEO Dashboard (Allgemein)
+
+<Image src={ImgTwo} alt="Yoast SEO Menüpunkt: Allgemein" />
+
+Yoast SEO bringt von Haus aus einen Konfigurations-Assistenten mit. Der Assistent hilft euch dabei die wichtigsten Einstellungen zu tätigen. Schritt für Schritt wirst du durch die verschiedenen Einstellungen geführt. So wird dich das Plugin fragen ob du eine Person oder Unternehmer bist. Yoast SEO macht daraufhin die empfohlenen Einstellungen.
+
+**Ich empfehle dir den Yoast Installationsassistenten zu ignorieren!**
+
+Das Problem mit dem Assistenten: Leider werden einige Einstellungen vom Assistenten ausgelassen, die wichtig für die Optimierung deiner Seite sein könnten!
+
+### Yoast SEO Funktionen
+
+<Image src={ImgThree} alt="Yoast SEO Menüpunkt: Funktionen" />
+
+Yoast SEO erledigt [viele Funktionen im Hintergrund](https://yoast.com/beginners-guide-yoast-seo/#hidden-features), die Ihr nicht deaktivieren könnt. Auf die Funktionen, auf die Ihr Einfluss habt, sind nur einige wichtig für die Optimierung eurer Webseite. 
+
+**SEO-Analyse:** Ist eine der Kernfunktionen von Yoast SEO. Die SEO Analyse gibt dir Ratschläge wie du den Inhalt deines Beitrags für Suchmaschinen optimieren kannst. Du findest diese [Infobox in der Seitenleiste deines Beitrages](https://yoast.com/beginners-guide-yoast-seo/#seo-analysis).
+
+**Link-Vorschläge:** Ihr solltet immer dafür sorgen, dass Ihr auf andere relevante Unterseiten weiterverlinkt. Das hilft nicht nur Crawlern dabei, dass eure Inhalte gefunden werden. Die verlinkung könnte auch für den Nutzer sinnvoll sein. Damit gehört die interne Verlinkung zu eine der wichtigsten Optimierungsmaßnahme die Ihr durchführen könnt. Erfahrungsgemäß ist diese Funktion nicht wirklich vielversprechend, aber jeder Blick auf eine Empfehlung kostet nur wenige Sekunden.
+
+**XML-Sitemaps:** Eine Sitemap ist eine Auflistung all eurer Urls die von einer Suchmaschine indexiert werden dürfen. Besonders wichtig ist diese Funktion für große Webseiten. Und damit eine der wichtigsten Funktionen vom Yoast SEO Plugin.
+
+**IndexNow:** Ist eine Funktion die bestimmten Suchmaschinen meldet, wenn Ihr einen Beitrag editiert oder veröffentlicht habt. Leider gehört Google nicht zu den Suchmaschinen, die an dieser Schnittstelle teilnehmen.
+
+**Keine erweiterten Einstellungen für Autoren:** solltet Ihr dann aktivieren, wenn mehrere Menschen auf der Webseite arbeiten oder Ihr Benutzerzugänge für Gastbeiträge vergebt. Damit verhindert Ihr das extrem kritische Einstellungen wie „Canonicals“ oder „noindex“ ohne euer Wissen verändert werden.
+
+Zudem gibt es einige Funktionen bei denen ihr selbst entscheiden könnt, ob Ihr diese nutzen möchtet. Auch bei Plugins gilt: Weniger ist mehr! Ihr braucht keinen Zugriff auf Statistiken oder Funktionen die eure WordPress Webseite "schwerer" machen und ggf. verlangsamen. Daher empfehle ich euch stets: Aktiviere nur Funktionen die du wirklich verwendest!
+
+**Lesbarkeitsanalyse:** Einige Nutzer sind Fans dieser Option. Mich konnte Sie bisher nicht überzeugen. Die Lesbarkeitsanalyse versucht deinen Text so leicht wie möglich verständlich zu machen. Dabei nutzt Yoast SEO eine Formel basierend auf dem [Flesch Lesbarkeitsindex](https://de.wikipedia.org/wiki/Lesbarkeitsindex). Aber ich schreibe Texte für meine Zielgruppe und nicht für Yoast. Und 100 Punkte in dem Flesch Lesbarkeitsindex würde bedeuten, ich würde meine Texte verständlich für Kinder schreiben.
+
+Es gibt immer etwas, das optimiert werden kann. Allerdings sollte man ab einem gewissen Grad abwägen ob weitere Optimierungen sinnvoll sind oder man sich neuen Aufgaben zuwenden sollte. Überoptimierung kann extrem viel Zeit schlucken. Die **Lesbarkeitsanalyse** ist ein solches Beispiel von Überoptimierung.
+
+### Webmaster Tools
+
+In den **Webmaster Tools** verifizierst du deine Seite für die Webmaster Tools der Suchgiganten. Du siehst das neben Marktführer Google auch Bing, Baidu und Yandex genannt werden. Bing hat einen Marktanteil von 8% in Deutschland und Yandex ist die führende Suchmaschine in Russland und Osteuropa. Baidu hingegen ist größtenteils in China vertreten.
+
+Da die Eintragung nicht länger als 5 Minuten dauert, empfehle ich euch neben Google auch für die Suchmaschinen Yandex und Bing zu verifizieren. Zudem liefert die Bing Webmaster Zentrale sehr hilfreiche Tipps, wie Ihr eure Webseite optimieren könnt.
+
+Wenn du die chinesische oder russische Sprache bedienst, empfehle ich dir zwingend die Webseite auch in Yandex oder Baidu einzutragen.
+
+### Crawl Einstellungen
+
+<Image src={ImgFour} alt="Yoast SEO Menüpunkt: Crawl Einstellungen" />
+
+Crawl Einstellungen ist eines der neusten Premium Features von Yoast SEO. Von Haus aus generiert WordPress viele zusätzliche Code-Schnipsel die für den Betrieb der Webseite nicht wichtig sind und deaktiviert werden können. Sie beeinflussen den SEO-Erfolg eurer Webseite nicht, reduzieren aber den Head Bereich der Webseite. Ihr könnt diese Funktionen einfach per Standard belassen, oder anhand des Screenshots wahlweise deaktivieren. Ich empfehle einen kurzen Blick [in die Dokumentation zu werfen](https://yoast.com/help/crawl-settings-in-yoast-seo/#h-powered-by-http-header), da das Yoast Team die einzelnen Optionen sehr gut erklärt hat.
+
+### Integrationen
+
+<Image src={ImgFive} alt="Yoast Integrationen" />
+
+Mittels API-Schnittstelle, lässt sich Yoast SEO um weitere Funktionen durch externe Dienste/Plugins ergänzen. Allerdings machen diese Integration nur Sinn, wenn Ihr diese Tools auch verwendet. Sonst blähen diese nur eure WordPress Installation auf. 
+
+Per Standard sind die Dienste "[Semrush](https://yoast.com/features/semrush/#utm_medium=software&utm_source=yoast-seo&utm_term=semrush-learn-more&utm_content=integrations-page)" und "[Wincher](https://yoast.com/features/wincher-integration/)" konfiguriert, die in der Gratis Version sehr eingeschränkt sind oder eine Registrierung erfordern. Ich empfehle euch beide Dienste zu deaktivieren. 
+
+### Darstellung in der Suche
+
+<Image src={ImgSix} alt="Darstellung Suche Allgemein" />
+
+In diesem Abschnitt konfigurieren wir die wichtigsten SEO Einstellungen eurer Webseite. Wir sagen Suchmaschinen welche Teile deiner Webseite indexiert werden dürfen und in den Suchergebnissen angezeigt werden dürfen.
+
+#### Allgemein
+
+Das **Titel-Trennzeichen** könnt Ihr je nach eigenen Geschmack auswählen. Der Seperator wird zwischen dem Namen eurer Unterseiten und eurem Website-Namen angezeigt. Das Ganze sieht dann ungefähr so aus:
+
+<Image src={ImgSeven} alt="Beispiel Yoast Snippet Generator" />
+
+Der Bereich [Knowledge Graph & Schema](https://www.searchmetrics.com/de/glossar/knowledge-graph/) ist besonders für bedeutende Personen und Unternehmen wichtig. Denn hier werden deine Eingaben für den Google Knowledge Graph aufbereitet. Der Google Knowledge Graph ist ein Feature von Google, in dem Informationen bereits in den Suchergebnissen zusammengefasst werden.
+
+<Image src={ImgEight} alt="Knowledge Panel in den Google Suchergebnissen" />
+
+### Inhaltstypen
+
+Im Bereich Inhaltstypen steuert Ihr, welche Post Types eurer WordPress Webseite (z.B. Seiten, Beiträge) in den Suchergebnissen erfasst werden dürfen. Außerdem wählt Ihr die Standard-Darstellung aus, falls Ihr weder Metatitel noch Metabeschreibung vorgegeben habt.
+
+<Image src={ImgNine} alt="Inhaltstypen im Yoast SEO Plugin" />
+
+Tipp: Schreibe für jeden Beitrag stets eine **eigene Metabeschreibungen!** Die Einstellungen die du oben getätigt hast, werden nur bei Beiträgen / Seiten übernommen bei denen du keine Meta-Angaben in den vorgegeben hast. Ein Textausschnitt wird niemals die selbe Aufmerksamkeit erzeugen, die du mit einer spezifischen Handlungsaufforderung erzeugen könntest!
+
+Natürlich kannst du auch deine eigenen Parameter verwenden. Nachweislich wirkt die Kombination aus Seitentitel + Webseitenname aber am besten.
+
+Mit **%%excerpt%%** kannst du beispielsweise den ersten Textausschnitt deines Beitrages anzeigen, wenn keine Metabeschreibung vorgegeben ist.
+
+Es gibt noch weitere fortgeschrittenere Variablen, diese würden den Inhalt dieses Tutorials aber sprengen. Mehr dazu erfährst du in der [Yoast SEO Dokumentation](https://kb.yoast.com/kb/yoast-wordpress-seo-titles-metas-template-variables/). Nutzt du Erweiterungen wie [Yoast wooCommerce](https://yoast.com/wordpress/plugins/yoast-woocommerce-seo/), kannst du beispielsweise Produktplatzhalter in Titel oder Beschreibung verwenden. 
+
+Nun kann es bei einigen Webseiten vorkommen, dass Ihr weitere Inhaltstypen angezeigt bekommt. Portfolio oder Gallerie Plugins erstellen häufig solche zusätzlichen Post Types. Das ist immer dann der Fall wenn Ihr ein Plugin auf eurer Webseite verwendet, dass einen eigenen Inhaltstypen erzeugt.
+
+Wie auf den Bildern oben, solltet Ihr nun entscheiden ob Ihr diese Inhalte wirklich indexieren möchtet. Verwendet Ihr diese Inhaltstypen nicht (beispielsweise weil Sie durch euer Theme standardmäßig erzeugt wurden), dann schließe diese einfach von der Indexierung aus.
+
+### Medien
+
+<Image src={ImgTen} alt="Yoast SEO Bild und Medieneinstellung" />
+
+**Anhangs-URL’s auf die Anhangs-Datei weiterleiten**: Finden Besucher die URL zu einer Mediendatei, leitet die URL den User stattdessen auf den Beitrag weiter, in der die Mediendatei eingebunden ist.
+
+Ich empfehle diese Einstellung ebenfalls auf **„Ja“** zu setzen.
+
+Ausnahme ist, wenn du ein Fotograf bist, Bilder über deine Webseite verkaufst oder eine Bilddatenbank veröffentlichst. Dann kann es hilfreich sein, dass all deine Medien über eine eigene URL für die Google Bildersuche verfügen.
+
+### Taxonomien
+
+Der Abschnitt **Taxonomien** befasst sich damit, was mit euren Kategorien oder Tags geschehen soll. Der Einsatzzweck von Taxonomien ist es eure Inhalte zu kategorisieren. Jedes Mal wenn Ihr ein Schlagwort oder eine Kategorie erstellt, wird auch eine Url nur für diese Taxonomie erzeugt.
+
+Hinterfragt deshalb kritisch ob diese zusätzlichen Kategorie-Urls wirklich einen Mehrwert für eine Suchmaschine haben. 
+
+Hat eine Kategorie beispielsweise nur einen Beitrag, dann kann diese Kategorie von Suchmaschinen mit dem eigentlichen Beitrag verwechselt werden und Duplicate Content erzeugen. 
+
+<Image src={ImgEleven} alt="Yoast SEO Einstellungen für Taxonomien beispielsweise Kategorien" />
+
+Verwendet eure Webseite weitere Inhaltstypen, dann sind diese auch in Kategorien und Tags unterteilt. Ihr müsst bei diesen ebenfalls entscheiden, ob Ihr diese indexieren lassen möchtet. Hast du dich dazu entschieden dein Portfolio in unterschiedliche Kategorien aufzuteilen, dann würde es Sinn machen auch diese Url’s zu indexieren.
+
+**Kategorie-Urls**: Im letzten Schritt müssen wir noch entscheiden wie /category/ Urls zu behandeln sind. Denn WordPress setzt vor jeder Kategorie das Präfix „/category/. In der Suchmaschinenoptimierung wollen wir unsere URLS aber so kurz wie möglich halten, daher ist es ratsam diesen Teil zu entfernen.
+**Beispiel**: „*growthwizard.de/category/seo/*“ wird zu „*growthwizard.de/seo/*„
+
+**Hinweis:** Besteht dein Blog schon länger und du benutzt bereits Kategorien in den Permalinks, solltest du Kategorien nicht entfernen. Die URL’s verändern sich daraufhin und es besteht die Gefahr, dass eine große Anzahl 404 Fehler entsteht. Solltest du dich dennoch dazu entscheiden die Category aus der URL zu entfernen, dann achte darauf **ALLE** alten Kategorien-Urls deiner Webseite auf die neuen Kategorie-Urls weiterzuleiten. Im schlimmsten Fall kommt es zu massiven Rankingeinbrüchen!
+
+### Archive
+
+WordPress generiert automatisch Archiv-Urls für viele Teile deiner Webseite. Da es unser Ziel als Suchmaschinenoptimierer stets ist, unnötige URLs zu reduzieren, so dass Suchmaschinen sich nur auf die wichtigsten Inhalte fokussieren, müssen wir einige dieser Archive aus den Suchergebnissen entfernen. 
+
+Nur wenige Arten von Webseiten (z.B. Magazine oder Blogs mit mehreren Autoren), sollten sich näher zu diesen Einstellungen informieren.
+
+<Image src={ImgTwelve} alt="Yoast SEO Einstellungen für Arhive" />
+
+**Hinweis**: Wenn du der einzige Autor einer Webseite bist, ist das Autorenarchiv exakt gleich mit der Homepage. Das führt zu einem sogenannten [Duplicate-Content-Problem](https://yoast.com/what-is-duplicate-content/#utm_source=yoast-seo&utm_medium=software&utm_term=archives-qm&utm_content=settings&utm_campaign=wordpress-general&php_version=7.0.33&platform=wordpress&platform_version=5.0.3&software=free&software_version=9.5&role=administrator&days_active=1&shortlink=duplicate-content). Wenn das bei deiner Webseite der Fall ist, kannst du das Archiv entweder abschalten (was zur Weiterleitung auf die Startseite führt) oder du fügst noindex,follow hinzu, damit die Autorenseite nicht in den Suchergebnissen auftaucht.
+
+### Breadcrumbs
+
+Breadcrumbs *(deutsch: Brotkrümmel)* erscheinen als kleine Navigation über deinen Beiträgen. Sie sind hilfreich für Nutzer, da Sie wie eine Art Wegweiser/Navigation fungieren. Aber sie helfen auch Suchmaschinen die Struktur deiner Webseite zu verstehen. Daher sind Breadcrumbs für SEO sehr bedeutend.
+
+<Image src={ImgThirteen} alt="Breadcrumbs Beispiel auf einer Webseite" />
+
+Im Hintergrund generiert Yoast SEO strukturierte Daten zu deinen Breadcrumbs. Das wirkt sich unmittelbar auf die Darstellung deiner Website in den Suchergebnissen aus:
+
+<Image src={ImgFourteen} alt="Breadcrumbs Beispiel auf einer Webseite" />
+
+Die meisten Themes verwenden eine eigene Lösung für Breadcrumbs. Oftmals unterstützen diese aber strukturierte Daten nicht. Deshalb ist meine Empfehlung, stets die Breadcrumbs von Yoast SEO zu verwenden. Leider reicht Aktivieren in den Einstellungen meist nicht aus. Glücklicherweise kannst du diese [mit etwas Programmierarbeit](https://yoast.com/help/implement-wordpress-seo-breadcrumbs/) selbst in dein Theme einbinden. Falls du Hilfe dabei benötigst, kannst du mich gerne damit beauftragen: "hello@steindominik.de". 
+
+Alternativ könnt Ihr Breadcrumbs auch als Shortcode einbinden.
+
+<Image src={ImgFifteen} alt="Yoast SEO Breadcrumbs Einstellungen" />
+
+### RSS
+
+Yoast SEO beinhaltet auch die Möglichkeit Texte oder Links an deinen RSS Feed anzuhängen. 
+
+**Damit lösen wir gleich 2 Probleme:**
+
+1. Du kannst den Feed um den Namen des Autors, deiner Marke oder deines Unternehmens erweitern.  Das stärkt den Wiedererkenunngswert deiner Marke oder sorgt dafür, dass Leser deines Feeds als Besucher konvertieren.
+2. Du schützt dich davor, dass automatisierte Bots deinen Inhalt klauen und duplizieren ([Scraping](https://de.ryte.com/wiki/Scraping))
+
+Das können Sie zwar immer noch, allerdings erscheint wenigstens ein Vermerk, wo der Inhalt zuerst veröfffentlicht wurde. Dadurch reduzierst du die Chance, dass deine Rankings unter fremden Duplicate Content leiden.
+
+<Image src={ImgSixteen} alt="Yoast SEO RSS Einstellungen" />
+
+Ihr könnt Eintragungen per HTML, statischem Text oder durch Platzhalter machen. Das Ergebnis in einem RSS Reader schaut dann so aus:
+
+<Image src={ImgSeventeen} alt="Yoast SEO RSS Einstellungen" />
+
+**Yoast SEO erlaubt die Verwendung folgender Platzhalter:**
+
+1. *%%AUTHORLINK%%*: Link zum Autor-Archiv mit dem Namen des Autors als Linktext
+2. *%%POSTLINK%%*: Link zum Artikel mit dem Artikelnamen als Linktext
+3. *%%BLOGLINK%%*: Link zu Deiner Seite mit dem Namen deines Blocks als Linktext
+4. *%%BLOGDESCLINK%%*: Link zu Deiner Seite mit Blogname und Slogan als Linktext
+
+### Social-Media
+
+Das Ausfüllen der Eingabefelder bereitet deine Daten für die Verwendung auf [Googles Knowledge Graph](https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html), [Facebooks Open Graph](https://developers.facebook.com/docs/sharing/opengraph  und [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started) vor.
+
+Je nachdem ob du deine Webseite eine "Person" oder ein "Unternehmen" präsentiert, unterscheidet sich das Social-Media Auswahlfenster in Yoast SEO.
+
+Der Begriff "Social Media" im Plugin ist leider etwas ungünstig gewählt. Denn mit diesen Einstellungen sagst du Suchmaschinen: Das sind unsere offiziellen Profile auf anderen Webseiten! Das muss sich nicht nur auf soziale Medien beziehen, sondern kann auch Verzeichniseinträge oder Buchungsplattformen einschließen.
+
+**Für Personen:**
+
+Personen ergänzen die Social-Media Profile, bzw. Beschreibungen in Ihrem WordPress Account:
+
+<Image src={ImgEightteen} alt="Yoast SEO Social Einstellungen" />
+
+<Image src={ImgNineteen} alt="Yoast SEO Social Einstellungen Profile" />
+
+**Und für Unternehmen**: Unternehmen können diese Einstellungen direkt im Social-Media Menü vornehmen. 
+
+<Image src={ImgTwenty} alt="Yoast SEO Social Konten für Unternehmen" />
+
+Hinweis: Bitte bachtet, dass es keine Garantie dafür gibt, dass Google eure Daten im Google Knowledge Graph präsentiert. Diese Entscheidung unterliegt ganz allein bei der Suchmaschine. Je mehr Autorität eure Webseite oder Marke verfügt, desto höher ist die Chance. 
+
+### Premium: Beitragsvorschau für Social Media
+
+Diese Funktion ist nur für Premium Nutzer von Yoast SEO verwendbar: Im Yoast SEO Reiter deiner Beiträge, kannst du ein vordefiniertes Bild verwenden, das beim Teilen in sozialen Medien verwendet werden, falls dein Beitrag über keine Bilder verfügt.
+
+**Optimale Bildgrößen für Social Media in Yoast SEO 2023**: 1200px x 630px
+
+**Facebook**:
+
+<Image src={ImgTwentyOne} alt="Yoast SEO Facebook Einstellungen" />
+
+Auch wenn du nicht mit Facebook arbeitest, solltest du diese Einstellungen aktiviert lassen. Schließlich können Nutzer trotzdem deine URL’s teilen.
+
+**Twitter**:
+
+Twitter nutzt die gleichen Open Graph Einstellungen wie Facebook aus dem vorigen Fenster, auch wenn sich die Maße geringfügig unterscheiden.
+
+<Image src={ImgTwentyTwo} alt="Yoast SEO Twitter Einstellungen" />
+
+**Pinterest**:
+
+Printerest ist eine wahnsinnig geniale und unterschätzte Backlinkquelle für bestimmte Nutzergruppen. Ich kann nur raten deine Webseite auch für Printerest zu optimieren und auch Inhalte auf dieser Plattform zu posten. Allerdings muss dein [Konto verifiziert](https://help.pinterest.com/de/articles/confirm-your-website) werden.
+
+<Image src={ImgTwentyThree} alt="Yoast SEO Pinterest Einstellungen" />
+
+### Werkzeuge
+
+Unter Werkzeuge hast du die Möglichkeit deine **.htaccess** oder **robots.txt** anzupassen. Außerdem kannst du deine Einstellungen & Daten aus Yoast importieren und exportieren. Das ist besonders dann wichtig, wenn du Weiterleitungen oder Metabeschreibungen in eine neue Instalallation exportieren möchtest. 
+
+Tipp: Du möchtest deine Yoast SEO oder RankMath Weiterleitungen nach next.js konvertieren? Mein kostenloses Tool [wpToNext.com](http://wptonext.com/) hilft dir dabei!
+
+**robots.txt**: Im etzten Schritt aus diesem Tutorial nehmen wir eine kleine Veränderung an der robots.txt vor. Die robots.txt ist nichts anderes, als ein kleiner Wegweiser für Crawler. Sie sagt auf welche Pfade zugegriffen werden darf und auf welche nicht.
+
+<Image src={ImgTwentyFour} alt="Yoast SEO Werkzeuge" />
+
+Wir werden nun unsere Sitemap in der robots.txt ergänzen, so dass alle Crawler den Pfad unserer XML-Sitemap kennen. Auch wenn unsere Webseite nicht in deren Webmaster-Tools verifiziert ist.
+
+<Image src={ImgTwentyFive} alt="Yoast SEO robots.txt Einstellungen" />
+
+Ergänze einfach die URL deiner Sitemap nach folgendem Muster:
+
+```txt
+Sitemap: https://die-url-deiner-webseite.de/sitemap_index.xml
+```
+
+### Die XML-Sitemap
+
+**Achtung:** Die Entwickler haben den Menüpunkt „XML – Sitemaps aus dem Pluginmenü entfernt. Die XML Sitemaps sind allerdings immer noch vorhanden! Du kannst deine XML-Sitemap unter folgenden Url aufrufen:
+
+```txt
+www.deine-website-url.de/sitemap_index.xml
+```
+
+Eine Sitemap enthält eine genaue Auflistung aller Artikel, Seiten, Medien und URL’s deiner Webseite und dem Datum, an dem Sie das letzte Mal bearbeitet wurden. Quasi ein Verzeichnis, dass der Suchmaschine genau sagt wo etwas gefunden werden kann. Das macht die Sitemap zu einem extrem mächtigen Tool. Je mehr Unterseiten Ihr habt, desto bedeutsamer wird die XML Sitemap.
+
+<Image src={ImgTwentySix} alt="Beispiel für XML Sitemap" />
+
+Die Inhaltstypen und Taxonomien die du in den vorigen Einstellungen zur Indexiierung freigegeben hast werden auch in der Sitemap dargestellt.
+
+Möchtest du den größten Nutzen aus einer Sitemap ziehen, dann musst du den Suchmaschinen in deren Webmaster Tools noch mitteilen, wo diese zu finden ist. Dieser Schritt erfolgt durch die **Google Search Console**.
+
+1. Logge dich in die [Google Search Console](https://search.google.com/search-console/about?hl=de) ein
+2. Wähle deine Webseite-Property aus
+3. Öffne im Menü unter "Indexierung" > "Sitemaps"
+4. Trage deine sitemap_index.xml unter „Neue Sitemap hinzufügen“ ein und sende die Sitemap an Google
+
+<Image src={ImgTwentySeven} alt="Search Console Sitemap ergänzen" />
+
+## Fazit zu Yoast SEO
+
+In einem Jahrzehnt hat Yoast SEO, das stabilste und am weitesten verbreitete Plugin für WordPress geschaffen. Besonders die weite Verbreitung sorgt dafür, dass Yoast SEO ein sehr stabiles WordPress Plugin ist, dass von vielen weiteren Themes & Plugins unterstützt wird. Außerdem hat Yoast einen maßgeblichen Anteil an der [Weiterentwicklung & Verbreitung von WordPress](https://yoast.com/wordpress-core-contributions/). Vielen Dank dafür!
+
+Sprechen wir von Funtkionsumfang und Geschwindigkeit, haben andere SEO-Plugins (z.B. Rank Math) Yoast SEO hinter sich gelassen. Möchtest du keine Premium-Version von Yoast SEO erwerben, dann ist Rank-Math vermutlich die bessere Wahl für dich. Beide Plugins habe ich im [Magazin von Raidboxes.io auf Ihre Funktionsvielfalt verglichen](https://raidboxes.io/blog/online-marketing/wordpress-seo-plugins/). 
