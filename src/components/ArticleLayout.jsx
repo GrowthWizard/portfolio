@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useContext } from 'react'
 import { useRouter } from 'next/navigation'
 
@@ -53,7 +54,7 @@ export function ArticleLayout({ children, article, isRssFeed = false }) {
                 className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
               >
                 <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
-                <span className="ml-3">{formatDate(article.date)}</span>
+                <span className="ml-3">Zuletzt aktualisiert am:{" "}{formatDate(article.date)}{" "} von <Link className="text-light-purple hover:text-rosa transition-colors ease-linear dark:text-rosa dark:hover:text-light-purple" href="/ueber">{article.author}</Link> </span>
               </time>
             </header>
             <Prose className="mt-8" data-mdx-content>
