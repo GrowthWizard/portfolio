@@ -1,7 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/seo/page": "app/seo/page.js",
-  "/blog/wp-rocket-einstellungen/page": "app/blog/wp-rocket-einstellungen/page.js",
-  "/blog/richtige-seo-agentur-finden/page": "app/blog/richtige-seo-agentur-finden/page.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
