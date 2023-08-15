@@ -38,7 +38,7 @@ export default function NotFound() {
           <div className="lg:relative lg:col-start-2 lg:row-start-1 lg:row-end-4 lg:block">
             <Image
               src={errorImage}
-              alt=""
+              alt="Illustration von dem Schrei, aber mit einem Programmierer"
               className="lg:absolute inset-0 h-full w-full object-cover"
               loading="eager"
             />
