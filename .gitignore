@@ -1,0 +1,5 @@
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.next
