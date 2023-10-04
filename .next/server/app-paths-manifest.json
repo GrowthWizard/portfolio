@@ -1,7 +1,7 @@
 {
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/seo/page": "app/seo/page.js",
   "/blog/page": "app/blog/page.js",
-  "/webdesign/page": "app/webdesign/page.js"
+  "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
 }
