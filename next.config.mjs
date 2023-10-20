@@ -37,6 +37,11 @@ const nextConfig = {
         destination: "/blog/wp-rocket-einstellungen",
         permanent: true,
       },
+      {
+        source: "/veroeffentlichungen",
+        destination: "/ueber",
+        permanent: true,
+      },
     ]
     }
 }
