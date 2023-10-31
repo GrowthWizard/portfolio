@@ -131,7 +131,6 @@ function MobileNavigation(props) {
                 <MobileNavItem href="/">home</MobileNavItem>
                 <MobileNavItem href="/webdesign">webdesign</MobileNavItem>
                 <MobileNavItem href="/seo">seo</MobileNavItem>
-                <MobileNavItem href="/about">about</MobileNavItem>
                 <MobileNavItem href="/blog">blog</MobileNavItem>
                 <MobileNavItem href="/work">work</MobileNavItem>
                 <MobileNavItem href="/ueber">
