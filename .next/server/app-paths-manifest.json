@@ -2,10 +2,6 @@
   "/page": "app/page.js",
   "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/ueber/page": "app/ueber/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/seo/page": "app/seo/page.js",
   "/work/page": "app/work/page.js",
-  "/webdesign/page": "app/webdesign/page.js",
-  "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
+  "/ueber/page": "app/ueber/page.js"
 }

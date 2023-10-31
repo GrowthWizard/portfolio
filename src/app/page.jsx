@@ -13,11 +13,11 @@ import {
 import logoFirmCatalyst from '@/images/logos/fc-logo.png'
 import logoCode from '@/images/logos/code.svg'
 import logoEducation from '@/images/logos/education.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/carousel/image-1.jpg'
+import image2 from '@/images/carousel/image-2.jpg'
+import image3 from '@/images/carousel/image-3.png'
+import image4 from '@/images/carousel/image-4.jpg'
+import image5 from '@/images/carousel/image-5.png'
 import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
 import HomepageHero from '@/components/HomePageHero'
@@ -282,6 +282,7 @@ export default async function Home() {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
+            <h2 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">Neueste Beiträge</h2>
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}

@@ -5,7 +5,7 @@ import clsx from 'clsx'
 // imports for Container Area
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
-import portraitImage from '@/images/old/dominik-stein.png'
+import portraitImage from '@/images/authors/dominik-stein/dominik-stein.png'
 
 // imports for SimpleLayout Area
 import { Card } from '@/components/Card'

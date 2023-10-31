@@ -7,7 +7,7 @@ import nextjsLogo from '@/images/old/nextjs-logo.png';
 import reactLogo from '@/images/old/react-logo.png';
 import wordpressLogo from '@/images/old/wordpress-logo.png';
 import tailwindLogo from '@/images/old/tailwindcss-logo.png';
-import profilePicture from '@/images/old/dominik-stein.png';
+import profilePicture from '@/images/authors/dominik-stein/dominik-stein-2023.jpeg';
 
 export default function HomepageHero() {
 
@@ -16,11 +16,11 @@ export default function HomepageHero() {
         <div className="grid grid-cols-2 justify-between gap-5 items-center flex-wrap dark:bg-zinc-900">
 
           <div id="hero-col-one" className="flex flex-col col-span-2 order-2 lg:order-1 lg:col-span-1">
-            <div className="flex flex-row flex-nowrap h-10 p-2 border bg-zinc-800 border-dark-purple rounded-full text-sm max-w-[270px] mb-4 gap-3 dark:bg-dark-purple">
-              <div className="animate-pulse flex items-center bg-zinc-300/70 text-white border rounded-full text-center py-1 px-3 dark:bg-light-purple dark:border-light-purple">
+            <div className="flex flex-row flex-nowrap items-center h-10 p-0.5 border bg-zinc-800 border-dark-purple rounded-full text-sm max-w-[270px] mb-4 gap-3 dark:bg-dark-purple">
+              <div className="animate-pulse flex items-center bg-green-400 text-zinc-800 border rounded-full text-center py-1 px-3 dark:bg-light-purple dark:border-light-purple dark:text-white">
                 <ActiveForWork />
               </div>
-              <a className="p-[1px]" href="https://bookme.name/dominik/lite/beratung" title="Beratungsgespräch buchen" rel="noopener norefferer">
+              <a className="" href="https://bookme.name/dominik/lite/beratung" title="Beratungsgespräch buchen" rel="noopener norefferer">
                 <div className="text-white hover:text-rosa transition-colors">Termin buchen <span className="text-slate-300">&#62;</span></div>
               </a>
             </div>
@@ -74,7 +74,8 @@ export default function HomepageHero() {
               width={450}
               height={450}
               loading="eager"
-              className="dark:grayscale" />
+              className="rounded-sm shadow-xl dark:grayscale dark:shadow-none"
+               />
           </div>
 
         </div>

@@ -9,7 +9,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/old/dominik-stein.png'
+import avatarImage from '@/images/authors/dominik-stein/dominik-stein-2023-4.jpg'
 
 function CloseIcon(props) {
   return (
