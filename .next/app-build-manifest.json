@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/loading.js"
+    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -10,26 +15,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/work/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/work/loading.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/work/page": [
+    "/work/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/work/page.js"
-    ],
-    "/ueber/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/ueber/loading.js"
+      "static/chunks/app/work/loading.js"
     ],
     "/ueber/page": [
       "static/chunks/webpack.js",
@@ -41,10 +36,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/impressum/page.js"
     ],
+    "/ueber/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ueber/loading.js"
+    ],
     "/impressum/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/impressum/loading.js"
+    ],
+    "/work/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/work/page.js"
     ],
     "/blog/loading": [
       "static/chunks/webpack.js",
@@ -60,11 +65,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/richtige-seo-agentur-finden/page.js"
-    ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
     ],
     "/blog/yoast-seo-tutorial/page": [
       "static/chunks/webpack.js",
