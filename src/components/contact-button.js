@@ -69,7 +69,7 @@ export default function ContactButton() {
       ></div>
       <div
         id="contact"
-        className="font-primary fixed bottom-5 right-5 lg:bottom-8 z-[52]"
+        className="font-primary fixed bottom-5 right-5 lg:right-8 lg:bottom-8 z-[52]"
         ref={buttonRef} // Attach the ref to the button
       >
         <button

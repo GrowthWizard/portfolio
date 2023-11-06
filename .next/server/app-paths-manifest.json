@@ -1,7 +1,8 @@
 {
   "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/impressum/page": "app/impressum/page.js",
-  "/ueber/page": "app/ueber/page.js",
   "/work/page": "app/work/page.js",
+  "/ueber/page": "app/ueber/page.js",
   "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
 }
