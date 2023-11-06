@@ -1,4 +1,7 @@
 {
-  "/blog/page": "app/blog/page.js",
-  "/blog/wp-rocket-einstellungen/page": "app/blog/wp-rocket-einstellungen/page.js"
+  "/page": "app/page.js",
+  "/impressum/page": "app/impressum/page.js",
+  "/ueber/page": "app/ueber/page.js",
+  "/work/page": "app/work/page.js",
+  "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
 }

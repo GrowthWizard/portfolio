@@ -4,6 +4,8 @@ import Header from './images/yoast-seo-tutorial.jpeg'
 import ImgOne from './images/1-install-yoast-seo.gif'
 import ImgTwo from './images/2-yoast-seo-allgemein.png'
 import ImgThree from './images/3-yoast-seo-funktionen.png'
+import ImgThreeOne from './images/3-1-mueller-inklusive-sprache.png'
+import ImgThreeTwo from './images/3-2-yoast-werkzeugleiste.png'
 import ImgFour from './images/4-crawl-einstellungen.png'
 import ImgFive from './images/5-yoast-integrationen.png'
 import ImgSix from './images/6-darstellung-suche-yoast.png'
@@ -33,7 +35,7 @@ import ImgTwentySeven from './images/27-search-console-sitemap.png'
 
 export const article = {
   author: 'Dominik Stein',
-  date: '2023-01-06',
+  date: '2023-11-07',
   title: 'Das ultimative Yoast SEO Tutorial für 2023!',
   description:
     'Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von Yoast SEO. Yoast ist ein mächtiges und stabiles Plugin. Wenn es richtig konfiguriert ist. Deswegen möchten wir dir mit diesem kostenlosen Yoast SEO Tutorial helfen, dein SEO-Plugin richtig für Suchmaschinen in 2023 zu konfigurieren!',
@@ -46,7 +48,9 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von Yoast SEO. Yoast ist ein mächtiges und stabiles Plugin. Wenn es richtig konfiguriert ist. Deswegen möchten wir dir mit diesem kostenlosen Yoast SEO Tutorial helfen, dein SEO-Plugin richtig für Suchmaschinen in 2023 zu konfigurieren!
+Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von [Yoast SEO](https://de.wordpress.org/plugins/wordpress-seo/). Yoast SEO kann dir bei der Suchmaschinenoptimierung deiner Webseite helfen... wenn es richtig konfiguriert ist. Deswegen möchte ich dir mit diesem kostenlosen Tutorial helfen, Yoast SEO richtig für Suchmaschinen in 2023 zu konfigurieren!
+
+*Dieses Tutorial ist kompatibel mit der [Version 21.5](https://developer.yoast.com/changelog/yoast-seo/) von Yoast SEO.*
 
 <Image src={Header} alt="Header: Das ultimative Yoast SEO Tutorial für 2023" />
 
@@ -54,69 +58,92 @@ Wenn WordPress Nutzer über SEO sprechen, dann sprechen Sie oft von Yoast SEO. Y
 
 Ich möchte dass du Erfolg mit deiner Webseite hast! Die folgenden 3 Hinweise sind wichtig, und können den Erfolg deiner Webseite entscheidend beeinflussen.
 
-### Wie kann Yoast SEO meiner Webseite helfen?
+### 1. Wie kann Yoast SEO meiner Webseite helfen?
 
 Ein Plugin zur Suchmaschinenoptimierung ist für den Erfolg mit WordPress unverzichtbar. Zwar ist WordPress von Installation aus bereits sehr suchmaschinenfreundlich, allerdings gibt es kleine Stellschrauben die stets verbessert werden können.
 
 Hier kommt das Yoast SEO Plugin ins Spiel und übernimmt zusätzliche Funktionen wie das Generieren einer Sitemap oder stellt Structured Data bereit, um den Kontext deiner Webseite für Suchmaschinen verständlicher zu machen. 
 
-Tipp: Was ist Structured Data? Structured Data ist für den Besucher nicht ersichtlicher Code, der Suchmaschinen weitere Informationen über Elemente (Überschriften, Bilder etc.) bereitstellt. 
+### 2. Yoast SEO oder RankMath - wähle das richtige Plugin!
 
-Du fragst dich sicherlich warum du dieses Tutorial benötigst. Der Grund ist einfach: Jede Webseite ist verschieden und hat eine andere Struktur. Außerdem konfiguriert sich Yoast SEO nicht selbst. 
+Bevor du deine wertvolle Zeit in dieses Tutorial investierst, solltest du einen Blick in meinen Artikel vom RaidBoxes Magazin werfen: "[Yoast SEO vs RankMath - WordPress SEO Plugins im Vergleich!](https://raidboxes.io/blog/online-marketing/wordpress-seo-plugins/)". Hier habe ich beide Plugins miteinander verglichen und bin zu dem Schluss gekommen, dass RankMath für die meisten Nutzer, das bessere Plugin im Jahr 2024 ist!
 
-### Yoast SEO oder RankMath - wähle das richtige Plugin!
+### 3. Ein Letzter Hinweis: Reicht ein SEO-Plugin für die Optimierung meiner Webseite aus?
 
-Bevor du deine wertvolle Zeit in dieses Tutorial investierst, solltest du einen Blick in diesen Artikel vom RaidBoxes Magazin durchlesen: "[Yoast SEO vs RankMath - WordPress SEO Plugins im Vergleich!](https://raidboxes.io/blog/online-marketing/wordpress-seo-plugins/)". Hier habe ich beide Plugins miteinander verglichen und bin zu dem Schluss gekommen, dass RankMath für die meisten Nutzer, das bessere Plugin im Jahr 2023 ist!
+Viele Betreiber einer Webseite installieren SEO-Plugins und erwarten daraufhin, dass sie sofort in den Top-Rankings mitspielen. Wäre es so einfach, dann wäre ich in den letzten 10 Jahren arbeitslos gewesen. [Suchmaschinenoptimierung](https://steindominik.de/seo) ist so viel umfangreicher. Ein SEO-Plugin sagt Crawlern wo deine Inhalte zu finden. Erklärt Suchmaschinen welche Inhalte indexiert werden dürfen. Stellt strukturierte Daten bereit. Aber auf die wichtigen Faktoren, hat ein SEO-Plugin keine Auswirkungen: 
 
-### Ein Letzter Hinweis: Reicht ein SEO-Plugin für die Optimierung meiner Webseite aus?
+- Hochwertige Inhalte
+- Backlinks
+- PageSpeed & Ladezeiten
+- interne Verlinkung 
 
-Viele Betreiber einer Webseite installieren SEO-Plugins und erwarten daraufhin, dass sie sofort in den Top-Rankings mitspielen. Wäre es so einfach, dann wäre ich in den letzten 10 Jahren arbeitslos gewesen. Suchmaschinenoptimierung ist so viel umfangreicher. Ein SEO-Plugin übernimmt nur die Kommunikation mit den Crawlern. Sagt welche Inhalte indexiert werden dürfen. Stellt struktuierte Daten bereit. Auf folgende SEO-Buzz Words hat ein SEO-Plugin keinen Einfluss: "Content, Backlinks, YMYL & E.A.T. , PageSpeed, interne Verlinkung". 
-
-Das klingt zwar nach viel, aber die gute Nachricht ist: 50% deines Erfolges wird nur von deinem Inhalt & [Keyword-Recherche bestimmt!](https://raidboxes.io/blog/online-marketing/keyword-research/) Das ist die wichtigste Metrik in der Suchmaschinenoptimierung. Alles weitere spielt nur eine Rolle, wenn du dich in einer Nische mit sehr starker Konkurrenz befindest. Wenn du Unterstützung bei der Konfiguration oder Optimierung deiner Webseite benötigst, [kannst du mich auch gerne beauftragen](/seo).
+Je nachdem in welcher Nische sich deine Webseite befindet, kommen dann noch fortgeschrittene Theme wie **YMYL** (*Your Money Your Life*) & **E.E.A.T.** (*Experience, Expertise, Authority and Trust*) hinzu.
 
 ## Yoast SEO Tutorial: Die richtige Konfiguration
 
-Für dieses Tutorial verwende ich Yoast Version 19.13 in der Premium Variante. Verwendest du die kostenlose Variante, überspringe Features einfach, auf die du kein Zugriff hast.
+Für dieses Tutorial verwende ich Yoast SEO in der Premium Version. Verwendest du die kostenlose Variante, überspringe die Features einfach, auf die du kein Zugriff hast.
 
 ### Yoast SEO installieren
 
-Die Installation ist simpel. Wie bei jedem anderen Plugin auch, rufst du in deinem WordPress Dashboard den Reiter Plugins auf. Unter Plugins installieren tippst du in der Suche Yoast SEO ein. Ein weiterer Klick auf Installieren und du kannst Yoast SEO auf deiner WordPress Webseite verwenden.
+Die Installation ist simpel. Wie bei jedem anderen Plugin auch, rufst du in deinem WordPress Dashboard den Reiter **Plugins** auf. Unter **Plugins installieren** tippst du in der Suche **[Yoast SEO](https://de.wordpress.org/plugins/wordpress-seo/)** ein. Ein weiterer Klick auf Installieren und du kannst Yoast SEO auf deiner WordPress Webseite verwenden.
 
-Solltest du das SEO Plugin bereits installiert haben, dann stelle bitte sicher die aktuellste Version zu verwenden & zu aktivieren!
+Solltest du das SEO Plugin bereits installiert haben, dann stelle bitte sicher die aktuellste Version zu verwenden!
 
 <Image src={ImgOne} alt="Yoast SEO installieren, .gif Anleitung" />
 
-### Das Yoast SEO Dashboard (Allgemein)
+### Einstellungen: General
+
+**Hier gibt es nicht viel zu tun.** Yoast SEO bringt von Haus aus einen Konfigurations-Assistenten mit. Diesen könnt Ihr hier starten. Dabei führt der Assistent euch Schritt für Schritt, durch die verschiedenen Einstellungen. So wird dich das Plugin fragen ob du deine Webseite eine Person oder ein Unternehmen präsentiert. Yoast SEO macht daraufhin die empfohlenen Einstellungen.
+
+**Mein Tipp: Ich empfehle dir den Yoast Installationsassistenten zu ignorieren!**
 
 <Image src={ImgTwo} alt="Yoast SEO Menüpunkt: Allgemein" />
 
-Yoast SEO bringt von Haus aus einen Konfigurations-Assistenten mit. Der Assistent hilft euch dabei die wichtigsten Einstellungen zu tätigen. Schritt für Schritt wirst du durch die verschiedenen Einstellungen geführt. So wird dich das Plugin fragen ob du eine Person oder Unternehmer bist. Yoast SEO macht daraufhin die empfohlenen Einstellungen.
+**Das Problem mit dem Assistenten:** Leider werden einige Einstellungen vom Assistenten ausgelassen, die wichtig für die Optimierung deiner Seite sein könnten.
 
-**Ich empfehle dir den Yoast Installationsassistenten zu ignorieren!**
+### Site Features
 
-Das Problem mit dem Assistenten: Leider werden einige Einstellungen vom Assistenten ausgelassen, die wichtig für die Optimierung deiner Seite sein könnten!
-
-### Yoast SEO Funktionen
+In diesem Auswahlfenster kannst du auswählen, welche Funktionen von Yoast SEO du nutzen möchtest. Viele Funktionen werden nicht benötigt und können deaktiviert werden, siehe Bild.
 
 <Image src={ImgThree} alt="Yoast SEO Menüpunkt: Funktionen" />
 
-Yoast SEO erledigt [viele Funktionen im Hintergrund](https://yoast.com/beginners-guide-yoast-seo/#hidden-features), die Ihr nicht deaktivieren könnt. Auf die Funktionen, auf die Ihr Einfluss habt, sind nur einige wichtig für die Optimierung eurer Webseite. 
-
 **SEO-Analyse:** Ist eine der Kernfunktionen von Yoast SEO. Die SEO Analyse gibt dir Ratschläge wie du den Inhalt deines Beitrags für Suchmaschinen optimieren kannst. Du findest diese [Infobox in der Seitenleiste deines Beitrages](https://yoast.com/beginners-guide-yoast-seo/#seo-analysis).
+
+**Lesbarkeitsanalyse:** Ich finde diese Option nicht hilfreich. Ich schreibe für Menschen. Und diese Texte sollten leicht verständlich sein. Aber ich habe den Eindruck, dass die Lesbarkeitsanalyse den Lesefluss in einem Text eher stört und dich zu unnatürlichen Formulierungen zwingt. Yoast SEO nutzt eine Formel basierend auf dem [Flesch Lesbarkeitsindex](https://de.wikipedia.org/wiki/Lesbarkeitsindex). Ein Score von 100 würde bedeuteten, dass der Text für Kinder leicht verständlich ist.
+
+**Inklusive Sprachanalyse:** Inklusive Sprache schließt alle Menschen, unabhängig von Alter, Geschlecht oder Herkunft ein. Dieses Feature ist leider nur in Englisch verfügbar. John Müller (*Google*) hat bestätigt, dass [inklusive Sprache ein Ranking-Faktor sein kann](https://twitter.com/johnmu/status/1567547696205991942?lang=en). Auch wenn ich als SEO-Experte die Auswirkung eher als sehr gering einstufe. 
+
+<Image src={ImgThreeOne} alt="John Müller über gendergerechte Sprache" />
+
+**KI-Generator für Titel und Beschreibung:** Premium-Feature. Mit dem KI-Generator habt Ihr die Möglichkeit, euch eine Auswahl von Meta-Titeln und Meta-Beschreibungen vorschlagen zu lassen. Nicht wichtig, aber die Funktion kann dir etwas kreative Arbeit abnehmen.
+
+**Einblicke:** Premium-Feature. Zeigt dir in einem kleinen Widget an, welche Wörter du am häufigsten verwendet hast oder wieviele Wörter du geschrieben hast. Da dieses Widget keinerlei hilfreiche Informationen gibt, empfehle ich dir diese Funktion zu deaktivieren.
 
 **Link-Vorschläge:** Ihr solltet immer dafür sorgen, dass Ihr auf andere relevante Unterseiten weiterverlinkt. Das hilft nicht nur Crawlern dabei, dass eure Inhalte gefunden werden. Die verlinkung könnte auch für den Nutzer sinnvoll sein. Damit gehört die interne Verlinkung zu eine der wichtigsten Optimierungsmaßnahme die Ihr durchführen könnt. Erfahrungsgemäß ist diese Funktion nicht wirklich vielversprechend, aber jeder Blick auf eine Empfehlung kostet nur wenige Sekunden.
 
-**XML-Sitemaps:** Eine Sitemap ist eine Auflistung all eurer Urls die von einer Suchmaschine indexiert werden dürfen. Besonders wichtig ist diese Funktion für große Webseiten. Und damit eine der wichtigsten Funktionen vom Yoast SEO Plugin.
+**Cornerstone-Content:** Als Cornerstone Content werden die wichtigsten Seiten deiner Webseite bezeichnet. Zu diesen Beiträgen sollten all deine interne Links verweisen. Mit diesem Feature kannst du diese Beiträge als "wichtig" markieren, so dass Sie in den Yoast SEO Empfehlungen eine höhere Gewichtung erhalten.
 
-**IndexNow:** Ist eine Funktion die bestimmten Suchmaschinen meldet, wenn Ihr einen Beitrag editiert oder veröffentlicht habt. Leider gehört Google nicht zu den Suchmaschinen, die an dieser Schnittstelle teilnehmen.
+**Text-Link-Zähler:** Genauso wenig sinnvoll wie die Einblicke. Diese Kennzahlen sind eher ablenkend, als dass Sie wirklich bei der SEO-Optimierung deiner Webseite helfen.
 
-**Keine erweiterten Einstellungen für Autoren:** solltet Ihr dann aktivieren, wenn mehrere Menschen auf der Webseite arbeiten oder Ihr Benutzerzugänge für Gastbeiträge vergebt. Damit verhindert Ihr das extrem kritische Einstellungen wie „Canonicals“ oder „noindex“ ohne euer Wissen verändert werden.
+**Link-Vorschläge:** Interne Verlinkung ist einer der stärksten Optimierungsmaßnahmen. Yoast SEO kann dir Empfehlungen geben, zu welchen Beiträgen du intern verlinken könntest. Meiner Erfahrung nach sind diese Empfehlungen leider nicht sehr hilfreich, so dass ich die Deaktivierung empfehle.
 
-Zudem gibt es einige Funktionen bei denen ihr selbst entscheiden könnt, ob Ihr diese nutzen möchtet. Auch bei Plugins gilt: Weniger ist mehr! Ihr braucht keinen Zugriff auf Statistiken oder Funktionen die eure WordPress Webseite "schwerer" machen und ggf. verlangsamen. Daher empfehle ich euch stets: Aktiviere nur Funktionen die du wirklich verwendest!
+**Open-Graph-Daten:** Open-Graph-Daten stellen einigen Social Media Plattformen Informationen über euren Beitrag bereit. Das hilft bei der Darstellung in sozialen Medien. Ich empfehle diese Funktion zu aktivieren.
 
-**Lesbarkeitsanalyse:** Einige Nutzer sind Fans dieser Option. Mich konnte Sie bisher nicht überzeugen. Die Lesbarkeitsanalyse versucht deinen Text so leicht wie möglich verständlich zu machen. Dabei nutzt Yoast SEO eine Formel basierend auf dem [Flesch Lesbarkeitsindex](https://de.wikipedia.org/wiki/Lesbarkeitsindex). Aber ich schreibe Texte für meine Zielgruppe und nicht für Yoast. Und 100 Punkte in dem Flesch Lesbarkeitsindex würde bedeuten, ich würde meine Texte verständlich für Kinder schreiben.
+**Twitter-Card-Daten:** Ähnlich den Open-Graph-Daten werden X (*früher: Twitter*), Informationen über deinen Beitrag an X geteilt, so dass dein Beitrag auf X besser dargestellt wird. Ich empfehle diese Funktion zu aktivieren.
 
-Es gibt immer etwas, das optimiert werden kann. Allerdings sollte man ab einem gewissen Grad abwägen ob weitere Optimierungen sinnvoll sind oder man sich neuen Aufgaben zuwenden sollte. Überoptimierung kann extrem viel Zeit schlucken. Die **Lesbarkeitsanalyse** ist ein solches Beispiel von Überoptimierung.
+**Slack-Freigabe:** Werden deine Urls im Messenger Slack geteilt, so siehen diese dort besser aus und es werden Informationen wie "Autor" oder "Lesezeit" ergänzt. Verbessert dein SEO nicht, aber schadet auch nicht.
+
+**Admin-Bar-Menü:** Nach Aktivierung wird lediglich eine Werkzeug-Leiste am oberen Teil deiner WordPress Webseite ergänzt.
+
+<Image src={ImgThreeTwo} alt="Yoast SEO Werkzeugleiste" />
+
+**Rest-API-Endpoint:** Wer WordPress wirklich nur als Content-Management-System verwendet, aber für sein Frontend eine andere Technologie verwendet, der kann die Daten vom Yoast SEO Plugin für sein Frontend auslesen. Als normaler WordPress Nutzer, brauchst du diese Funktion aber nicht.
+
+**XML-Sitemaps:** Eine Sitemap ist eine Auflistung all der Urls auf deiner Webseite die von einer Suchmaschine indexiert werden dürfen. Besonders wichtig ist diese Funktion für große Webseiten. Und damit eine der wichtigsten Funktionen vom Yoast SEO Plugin.
+
+**IndexNow:** Ist eine Funktion die bestimmten Suchmaschinen (*z.B. Bing*) meldet, wenn Ihr einen Beitrag editiert oder veröffentlicht habt. Leider gehört Google nicht zu den Suchmaschinen, die an dieser Schnittstelle teilnehmen.
+
+**Hinweis:** Das sind bei Weitem nicht alle Funktionen des Yoast SEO Plugins. sYoast SEO erledigt [viele Funktionen im Hintergrund](https://yoast.com/beginners-guide-yoast-seo/#hidden-features), die Ihr nicht deaktivieren könnt.
 
 ### Webmaster Tools
 
