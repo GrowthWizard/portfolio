@@ -2,6 +2,7 @@ import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 import UnnecessaryConsoleLogStatement from '@/components/UnnecessaryConsoleLog'
 import ContactButton from '@/components/contact-button';
+//import ContactButton from '@/components/ContactButton/ContactButton';
 import { Analytics } from '@vercel/analytics/react';
 
 import '@/styles/tailwind.css'
@@ -24,7 +25,8 @@ export default function RootLayout({ children }) {
             <Layout>{children}</Layout>
           </div>
         </Providers>
-        <ContactButton />
+       {/* <ContactButton /> */}
+       <ContactButton />
         <Analytics />
       </body>
     </html>

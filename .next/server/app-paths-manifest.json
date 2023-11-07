@@ -1,7 +1,11 @@
 {
   "/page": "app/page.js",
-  "/work/page": "app/work/page.js",
-  "/ueber/page": "app/ueber/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/not-found": "app/not-found.js",
   "/impressum/page": "app/impressum/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/webdesign/page": "app/webdesign/page.js",
+  "/ueber/page": "app/ueber/page.js",
+  "/work/page": "app/work/page.js",
   "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
 }

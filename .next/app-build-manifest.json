@@ -21,6 +21,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/work/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/work/page.js"
+    ],
     "/work/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,25 +36,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/ueber/page.js"
     ],
-    "/impressum/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/impressum/page.js"
-    ],
     "/ueber/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/ueber/loading.js"
     ],
+    "/impressum/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/impressum/page.js"
+    ],
     "/impressum/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/impressum/loading.js"
-    ],
-    "/work/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/work/page.js"
     ],
     "/blog/loading": [
       "static/chunks/webpack.js",
@@ -70,6 +70,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/yoast-seo-tutorial/page.js"
+    ],
+    "/webdesign/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/webdesign/loading.js"
+    ],
+    "/webdesign/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/webdesign/page.js"
     ]
   }
 }
