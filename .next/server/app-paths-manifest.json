@@ -1,6 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/webdesign/page": "app/webdesign/page.js",
-  "/blog/page": "app/blog/page.js",
   "/blog/yoast-seo-tutorial/page": "app/blog/yoast-seo-tutorial/page.js"
 }

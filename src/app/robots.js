@@ -16,6 +16,11 @@ export default function robots() {
         allow: "",
         disallow: "/",
       },
+      {
+        userAgent: "Google-Extended",
+        allow: "",
+        disallow: "/",
+      },
     ],
     sitemap: "https://steindominik.de/sitemap.xml",
   };
