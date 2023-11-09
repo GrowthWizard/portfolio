@@ -42,7 +42,7 @@ export default function SeoCards() {
                 </div>
                 <h2 className="text-zinc-800 font-bold dark:text-white text-xl">SEO-Betreuung</h2>
                 <span className="text-light-purple text-sm before:content-['//'] before:pr-1 dark:text-rosa">SEO-Friendly & blitzschnell</span>
-                <p className="text-zinc-800 pt-3 mb-3 dark:text-white">Eine fortlaufende SEO-Betreuung ist immer dann nötig, wenn deine Webseite es nicht aus eigenen Mitteln schafft, Top-Platzierungen in den organischen Suchergebnissen zu erzielen. Mit der richtigen Strategie, finden wir gemeinsam die die richtigen Keywords, um deine Webseite auf Erfolgskurs zu bringen.</p>
+                <p className="text-zinc-800 pt-3 mb-3 dark:text-white">Eine fortlaufende SEO-Betreuung ist immer dann nötig, wenn deine Webseite es nicht aus eigenen Mitteln schafft, Top-Platzierungen in den organischen Suchergebnissen zu erzielen. Mit der richtigen Strategie finden wir gemeinsam, die richtigen Keywords, um deine Webseite auf Erfolgskurs zu bringen.</p>
             </div>
             </Link>
 

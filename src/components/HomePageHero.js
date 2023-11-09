@@ -25,7 +25,7 @@ export default function HomepageHero() {
               </a>
             </div>
             <h1 className="text-zinc-900 text-3xl lg:text-5xl font-extrabold mb-5 dark:text-slate-200"><Typing /><br/> vom SEO-Experten.</h1>
-            <p className="text-lg text-zinc-600 mb-4 lg:mb-12 lg:text-lg dark:text-slate-200">Das einzige was schwer an der Suchmaschinenoptimierung ist, ist die Komplexität der Materie. Bei all den Regeln und Best-Practices, kann es schwer sein zu entscheiden, welche Optimierungsmöglichkeiten den größten Effekt erzielen.</p>
+            <p className="text-lg text-zinc-600 mb-4 lg:mb-12 lg:text-lg dark:text-slate-200">Das Einzige, was schwer an der Suchmaschinenoptimierung ist, ist die Komplexität der Materie. Bei all den Regeln und Best Practices, kann es schwer sein zu entscheiden, welche Optimierungsmöglichkeiten den größten Effekt erzielen.</p>
             <div>
               <h3 className="text-lg text-zinc-600  font-semibold mb-4 dark:text-slate-200">Verwendete Technologien:</h3>
               <div id="technologies">

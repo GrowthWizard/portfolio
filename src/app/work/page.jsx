@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'Hormonexperten.de',
     description:
-      'Eine next.js Webseite, die WordPress als HeadlessCMS nutzt. Extrem gute Ladezeiten!',
+      'Eine next.js Webseite, die WordPress als HeadlessCMS nutzt. Hevorragende Ladezeiten!',
     link: { href: 'https://hormonexperten.de', label: 'hormonexperten.de' },
     logo: logoHormonexperten,
     alt: "Logo hormonexperten.de",
@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'plastischechirurgie-frankfurt.com',
     description:
-      'Schnelle next.js Webseite, die in Zusammenarbeit m. firmcatalyst.de entstandt.',
+      'Schnelle next.js Webseite, die in Zusammenarbeit m. firmcatalyst.de entstand.',
     link: { href: 'https://www.plastischechirurgie-frankfurt.com/', label: 'plastischechirurgie-frankfurt.com' },
     logo: logoDrYun,
     alt: "Logo Plastischer Chirurg Dr. Yun",
@@ -28,7 +28,7 @@ const projects = [
   {
     name: 'schlafapnoe-online.de',
     description:
-      'In Zusammenarbeit m. firmcatalyst.de entstandt diese schnelle next.js Webseite.',
+      'In Zusammenarbeit m. firmcatalyst.de entstand diese schnelle next.js Webseite.',
     link: { href: 'https://schlafapnoe-online.de', label: 'schlafapnoe-online.de' },
     logo: logoSchlafapnoe,
     alt: "Logo schlafapnoe-online.de",
@@ -44,7 +44,7 @@ const projects = [
   {
     name: 'LeoRes',
     description:
-      'Ein WordPress Fullsite Editing Theme, dass die Möglichkeiten vom neuen Gutenberg Editor erforscht.',
+      'Ein WordPress Fullsite-Editing-Theme, dass die Möglichkeiten vom neuen Gutenberg Editor erforscht.',
     link: { href: 'https://leores.de', label: 'leores.de' },
     logo: LogoLeores,
     alt: "Logo leores.de",
@@ -71,7 +71,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Dinge, die ich gebastelt habe, um dem Universum meinen Stempel aufzudrücken."
-      intro="Über die Jahre habe ich an Dutzenden Projekten und mit vielen wunderbaren Menschen zusammengearbeitet. Anbei eine Auflistung meiner letzten Projekte. Klicke auf das jeweilige Projekt um mehr darüber zu erfahren. Für Teilnahme & Verbesserungen bin ich dankbar."
+      intro="Über die Jahre habe ich an Dutzenden Projekten und mit vielen wunderbaren Menschen zusammengearbeitet. Anbei eine Auflistung meiner letzten Projekte. Klicke auf das jeweilige Projekt, um mehr darüber zu erfahren. Für Teilnahme & Verbesserungen bin ich dankbar."
     >
       <ul
         role="list"

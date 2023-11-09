@@ -159,11 +159,11 @@ export default function About() {
               erlernen und mich als Web-Developer weiterzuentwickeln.
             </p>
             <p>
-              Die Erfahrung die ich seitdem als Web-Developer sammeln konnte,
+              Die Erfahrung, die ich seitdem als Web-Developer sammeln konnte,
               hat dazu geführt, dass ich mich im Jahr 2022 als
               Frontend-Developer selbstständig gemacht habe. Tatkräftig werde
-              ich dabei von Konstantin Nowotny (Design) und FirmCatalyst (SEO)
-              interstützt, mit denen ich gemeinsam in einem Kollektiv
+              ich dabei von Konstantin Nowotny (Design)
+              unterstützt, mit dem ich gemeinsam in einem Kollektiv
               zusammenarbeite.
             </p>
             <h3 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
@@ -173,11 +173,11 @@ export default function About() {
               <span className="font-semibold">Programmiersprachen:</span> HTML,
               CSS, JavaScript (ES6), PHP
               <br />
-              <span className="font-semibold">Librarys & Frameworks:</span>{' '}
-              next.js, React, TailwindCSS, GraphQL, Apollo
+              <span className="font-semibold">Libraries & Frameworks:</span>{' '}
+              next.js, React, Tailwind CSS, GraphQL, Apollo
               <br />
               <span className="font-semibold">Plattformen:</span> GitHub,
-              Vercel, Raidboxes, WordPress
+              Vercel, RaidBoxes, WordPress
               <br />
             </p>
           </div>
@@ -241,7 +241,7 @@ export default function About() {
       </div>
       <SimpleLayoutH2
       title="Veröffentlichungen"
-      intro="Ich wäre heute nicht dort, wo ich heute stehe, wenn ich nicht von anderen gelernt hätte. Vielen Dank an all die Menschen die Ihr Wissen im Internet teilen und zur Verfügung stellen. Um wieder etwas zurück an die Community zu geben, teile ich selbst mein Wissen im Internet. Aber auch Unternehmen können mich gerne als Fachautoren für Ihre Webseite beauftragen. Ein Fachartikel startet bei ca. 490€ zzgl. MwSt."
+      intro="Ich wäre heute nicht dort, wo ich heute stehe, wenn ich nicht von anderen gelernt hätte. Vielen Dank an all die Menschen, die Ihr Wissen im Internet teilen und zur Verfügung stellen. Um wieder etwas zurück an die Community zu geben, teile ich selbst mein Wissen im Internet. Aber auch Unternehmen können mich gerne als Fachautoren für Ihre Webseite beauftragen. Ein Fachartikel startet bei ca. 490 € zzgl. MwSt."
     >
       <div className="space-y-20">
         <PublicationSection title="Tutorials">
@@ -255,7 +255,7 @@ export default function About() {
           <Appearance
             href="https://raidboxes.io/blog/online-marketing/keyword-research/?aid=68271"
             title="Mit der Keyword-Recherche zum SEO Erfolg: Anleitung Schritt für Schritt"
-            description="Eine Schritt für Schritt Anleitung mit Anregungen, wie eine Keyword-Recherche durchgeführt werden kann."
+            description="Eine Schritt-für-Schritt Anleitung mit Anregungen, wie eine Keyword-Recherche durchgeführt werden kann."
             event="Raidboxes.io, März 2022"
             cta="Zum Tutorial"
           />
@@ -263,8 +263,8 @@ export default function About() {
         <PublicationSection title="Gastbeiträge">
           <Appearance
             href="https://raidboxes.io/blog/online-marketing/wordpress-seo-plugins/?aid=68271"
-            title="Yoast vs Rank Math: WordPress SEO Plugins im Vergleich"
-            description="Du hast dich schon immer gefragt welches das beste SEO Plugin für WordPress ist? In diesem Guide vergleiche ich YoastSEO mit RankMath."
+            title="Yoast vs. RankMath: WordPress SEO Plugins im Vergleich"
+            description="Du hast dich schon immer gefragt, welches das beste SEO Plugin für WordPress ist? In diesem Guide vergleiche ich YoastSEO mit RankMath."
             event="Raidboxes.io, August 2022"
             cta="Zum Gastbeitrag"
           />
@@ -280,7 +280,7 @@ export default function About() {
           <Appearance
             href="https://raidboxes.io/ebook/seo-audit-tools/?aid=68271"
             title="E-Book: SEO Audit leicht gemacht"
-            description="Ich habe das Online-Magazin des WordPress-Hosters Raidboxes mit einem E-Book zum Thema SEO Audit unterstützt."
+            description="Ich habe das Online-Magazin des WordPress-Hosters RaidBoxes mit einem E-Book zum Thema SEO Audit unterstützt."
             event="Raidboxes.io, Juni 2023"
             cta="Zum E-Book"
           />

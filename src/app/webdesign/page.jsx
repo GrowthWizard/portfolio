@@ -43,8 +43,8 @@ export default function Projects() {
         <WebDesignCards />
         <WebdesignSection title="Umsetzung">
           <Appearance
-            title="Umsetzung nach Screen Design"
-            description="Als professioneller Web-Developer sorge ich dafür, dass dein Webdesign exakt umgesetzt wird. Ich achte darauf, dass die Umsetzung möglichst nah am Design ist und, falls für das Projekt relevant, kann ich auf meine 8 Jahre Erfahrung als Head of SEO zurückgreifen, um Anpassungen vorzuschlagen & Fallstricke zu vermeiden, bevor diese von einem Developer umgesetzt werden. Das spart dir wertvolle Zeit und Geld."
+            title="Umsetzung nach Screen-Design"
+            description="Als professioneller Web-Developer sorge ich dafür, dass dein Webdesign exakt umgesetzt wird. Ich achte darauf, dass die Umsetzung nahezu identisch zum Entwurf ist. Und falls für das Projekt relevant, kann ich auf meine 8 Jahre Erfahrung als Head of SEO zurückgreifen, um SEO-Fallstricke zu vermeiden, bevor diese von einem Developer umgesetzt werden. Das spart dir wertvolle Zeit und Geld."
           />
         </WebdesignSection>
         <WebdesignSection title="Design">
@@ -56,13 +56,13 @@ export default function Projects() {
         <WebdesignSection title="Anforderungen">
           <Appearance
             title="SEO-Optimiert oder Ads Landingpage?"
-            description='In einem ersten Gespräch besprechen wir deine Wünsche und Anforderungen an deine Webseite. Daraufhin ist es wichtig zu bestimmen, für welche Besucher deine Webseite optimiert werden sollen. Eine Ads-Landingpage hat andere Ansprüche als eine Webseite die in den organischen Suchergebnissen ranken möchte. Nur so können wir bestimmen, welche Technologie die beste für Wahl für das Erreichen deines Zieles ist.'
+            description='In einem ersten Gespräch besprechen wir deine Wünsche und Anforderungen an deine Webseite. Daraufhin ist es wichtig, zu bestimmen, für welche Besucher deine Webseite optimiert werden sollen. Eine Ads-Landingpage hat andere Ansprüche als eine Webseite, die in den organischen Suchergebnissen ranken möchte. Nur so können wir bestimmen, welche Technologie die beste für Wahl für das Erreichen deines Zieles ist.'
           />
         </WebdesignSection>
         <WebdesignSection title="Entwicklung">
           <Appearance
             title="Transparente Zusammenarbeit"
-            description='Während des Development & Design Prozesses haben alle Beteiligten jederzeit die Möglichkeit, den Fortschritt über eine Live-Url einzusehen. Dabei ist jede Partei aktiv in den Prozess eingebunden. Auf Wunsch können wir auch Impressum und Datenschutz bereitstellen und falls gewünscht, können wir auch eine Fortbetreuung der Webseite übernehmen. Als SEO-Experte stehe ich dir gerne zur Verfügung, um deine Webseite zu optimieren und deine Besucherzahlen zu steigern."'
+            description='Während des Development & Design Prozesses haben alle Beteiligten jederzeit die Möglichkeit, den Fortschritt über eine Live-URL einzusehen. Dabei ist jede Partei aktiv in den Prozess eingebunden. Auf Wunsch können wir auch Impressum und Datenschutz bereitstellen und falls gewünscht, können wir auch eine Fortbetreuung der Webseite übernehmen. Als SEO-Experte stehe ich dir gerne zur Verfügung, um deine Webseite zu optimieren und deine Besucherzahlen zu steigern.'
           />
         </WebdesignSection>
       </SimpleLayout>
