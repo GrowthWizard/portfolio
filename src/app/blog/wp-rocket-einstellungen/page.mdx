@@ -19,7 +19,7 @@ import ImgFifteen from './images/wprocket-cloudflare-cache-leeren.jpeg'
 
 export const article = {
   author: 'Dominik Stein',
-  date: '2023-11-04',
+  date: '2023-11-10',
   title: 'Das ultimative WP-Rocket Tutorial für 2024!',
   description:
     'WP-Rocket* ist aus nach unserer Sicht das beste Caching Plugin für WordPress. Hinsichtlich der Geschwindigkeitsoptimierung ist es zwar stets besser, den Cache durch den Server ausliefern zu lassen, aber nicht jedes Webhosting bietet diese Möglichkeit.',
@@ -32,9 +32,9 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-[WP-Rocket**](https://shareasale.com/r.cfm?b=1075949&u=1994730&m=74778&urllink=wp%2Drocket%2Eme%2Fde%2F&afftrack=)* ist aus meiner Sicht das beste Caching-Plugin für WordPress! Es kommt bei fast all meinen Kunden zum Einsatz. Dieses Tutorial soll dir dabei helfen, WP-Rocket optimal einzurichten und die Ladezeiten deiner Wordpress Seite zu verbessern.
+[WP-Rocket**](https://shareasale.com/r.cfm?b=1075949&u=1994730&m=74778&urllink=wp%2Drocket%2Eme%2Fde%2F&afftrack=)* ist aus meiner Sicht das beste Caching-Plugin für WordPress! Es kommt bei fast all meinen Kunden zum Einsatz. Dieses Tutorial soll dir dabei helfen, WP-Rocket optimal einzurichten und die Ladezeiten deiner WordPress Seite zu verbessern.
 
-<Image src={ImgHeader} alt="Header: Das ultimative WP-Rocket Tutorial für 2023" />
+<Image src={ImgHeader} alt="Header: Das ultimative WP-Rocket Tutorial für 2024" />
 
 WP-Rocket vereint eine Vielzahl an Performance-Plugins in einem einzigen Plugin, wodurch du auf die Installation von mindestens sechs weiteren Spezial-Plugins verzichten kannst.
 
@@ -44,17 +44,17 @@ Cooler Nebeneffekt: Weniger Plugins gehen fast immer eine Verbesserung der Ladez
 2. Lokales Ausführen von Google Analytics (Alternative: [CAOS - Host Google Analytics locally](https://de.wordpress.org/plugins/host-analyticsjs-local/))
 3. Minimieren von Google Fonts Abfragen (Alternative: [Google Fonts lokal hosten](https://wp-ninjas.de/wordpress-google-fonts))
 4. Datenbankbereinigung (Alternative: [WP-Optimize](https://wordpress.org/plugins/wp-optimize/))
-5. Lazy Load von iframes, Bildern & Youtube Videos (Alternative: [Rocket Lazy Load](https://de.wordpress.org/plugins/rocket-lazy-load/))
+5. Lazy Load von iframes, Bildern & YouTube-Videos (Alternative: [Rocket Lazy Load](https://de.wordpress.org/plugins/rocket-lazy-load/))
 6. Heartbeat Control (Alternative: [Heartbeat Control](https://wordpress.org/plugins/heartbeat-control/))
 
-Um dir einen ungefähren Vergleich zu geben, was die Optimierung durch Wp-Rocket ausmacht, ein kurzer Vergleich in Pagespeed Insights.
+Um dir einen ungefähren Vergleich zu geben, was die Optimierung durch WP-Rocket ausmacht, ein kurzer Vergleich in Pagespeed Insights.
 
 <Image src={ImgOne} alt="Pagespeed Insights Werte vor WP-Rocket" />
 <p>WordPress Seite mit einem Score von 49/100 Punkten, ohne das WP-Rocket Plugin.</p>
 <Image src={ImgTwo} alt="Pagespeed Insights Werte nach WP-Rocket" />
-<p>Gleiche WordPress Seite mit einem Score von 89/100 Punkten, ohne das WP-Rocket Plugin.</p>
+<p>Gleiche WordPress Seite mit einem Score von 89/100 Punkten, mit dem WP-Rocket Plugin.</p>
 
-Weitere Vorteile sind die [breite Kompatibilität mit Plugins](https://docs.wp-rocket.me/category/1212-plugins), [Multisite-Konfigurationen](https://docs.wp-rocket.me/article/874-how-to-use-wp-rocket-in-a-multisite-environment) und [E-Commerce-Plattformen wie WooCommerce](https://docs.wp-rocket.me/article/27-using-wp-rocket-on-your-ecommerce-site). Und das alles vereint in einem schlichten User Interface. Muss ich echt noch weitere Gründe aufzählen, warum ich kompromisslos bereit bin, 59€ für dieses Plugin zu bezahlen?
+Weitere Vorteile von WP-Rocket sind die [breite Kompatibilität mit Plugins](https://docs.wp-rocket.me/category/1212-plugins), [Multisite-Konfigurationen](https://docs.wp-rocket.me/article/874-how-to-use-wp-rocket-in-a-multisite-environment) und [E-Commerce-Plattformen wie WooCommerce](https://docs.wp-rocket.me/article/27-using-wp-rocket-on-your-ecommerce-site). Und das alles vereint in einem schlichten User Interface. Muss ich echt noch weitere Gründe aufzählen, warum ich kompromisslos bereit bin, 59 € für dieses Plugin zu bezahlen?
 
 <Image src={ImgFour} alt="WP-Rocket Preismodell" />
 
@@ -62,39 +62,39 @@ Weitere Vorteile sind die [breite Kompatibilität mit Plugins](https://docs.wp-r
 
 ### Das WP-Rocket Dashboard
 
-Ihr findet die Einstellungen im Backend von Wordpress unter *“Einstellungen > WP-Rocket”*.
+Ihr findet die Einstellungen im Backend von WordPress unter *„Einstellungen > WP-Rocket“*.
 
 Das Dashboard dient als dein persönlicher Einstieg in das Plugin. Hier findest du Links zur Dokumentation, häufig gestellte Fragen und die Möglichkeit den Support zu kontaktieren.
 
 <Image src={ImgFive} alt="WP-Rocket Dashboard der Einstellungen" />
 
-**Rocket Analytics**: Damit stimmst du zu, dass du WP-Rocket anonymisierte Daten bereitstellst, die zur Verbesserung des Plugins beitragen. Das hat einen minimalen Effekt auf die Ladegeschwindigkeit der Webseite. Ich empfehle dir aber diese Option zu deaktivieren.
+**Rocket Analytics**: Damit stimmst du zu, dass du WP-Rocket anonymisierte Daten bereitstellst, die zur Verbesserung des Plugins beitragen. Das hat einen minimalen Effekt auf die Ladegeschwindigkeit der Webseite. Ich empfehle dir aber, diese Option zu deaktivieren.
 
-**RocketCDN**: WP-Rocket bietet zusätzlich zum Plugin noch einen [CDN Dienst](https://go.wp-rocket.me/rocket-cdn) an, der zusätzlich zur Geschwindigkeit deiner Webseite beitragen soll. Der CDN wird unter eigenem Namen vertrieben basiert aber in erster Linie auf dem Dienst StackPath. StackPath liefert nur die Dateien deiner Webseite aus. Andere CDN Dienste komprimieren diese beispielsweise noch.
+**RocketCDN**: WP-Rocket bietet zusätzlich zum Plugin noch einen [CDN Dienst](https://go.wp-rocket.me/rocket-cdn) an, der zusätzlich zur Geschwindigkeit deiner Webseite beitragen soll. Der CDN wird unter eigenem Namen vertrieben, basiert aber in erster Linie auf dem Dienst StackPath. StackPath liefert nur die Dateien deiner Webseite aus. Andere CDN Dienste komprimieren diese beispielsweise noch.
 
-Tipp: Statt die 8€ monatlich für ein CDN-Dienst auszugeben, empfehle ich dir, das Geld lieber in ein besseres Webhosting zu investieren. Ich empfehle dir [Raidboxes.io](https://raidboxes.io/free-wordpress-migration/?aid=68271).
+**Mein Tipp**: Statt die 8 € monatlich für einen CDN-Dienst auszugeben, empfehle ich dir, das Geld lieber in ein besseres Webhosting zu investieren. Ich empfehle dir [Raidboxes.io](https://raidboxes.io/free-wordpress-migration/?aid=68271).
 
-**Cache leeren**: Nach Änderungen an deiner Webseite, solltest du stets den Cache leeren, so dass die Seite für dich und deine Besucher auch richtig dargestellt wird.
+**Cache leeren**: Nach Änderungen an deiner Webseite, solltest du stets den Cache leeren, sodass die Seite für dich und deine Besucher auch richtig dargestellt wird.
 
 **Cache-Preload starten**: WP-Rocket lässt sich so einstellen, dass es den Preloading-Prozess automatisch ausführt. Diese Funktion sorgt dafür, dass auch erstmalige Besucher die schnelle, vorgefertigte Cache-Version Ihrer Website angezeigt bekommen, ohne auf die Generierung zu warten.
 
-**OPCache leeren**: Wordpress basiert zu großen Teilen auf php. Mit aktivierten OPCache müssen php Anfragen nicht jedes Mal neu gestartet werden, sondern können zwischengespeichert werden. Weitere Informationen zu OPCache findest du auf du im Wiki von [Variomedia](https://www.variomedia.de/faq/Wie-kann-ich-PHP-mittels-OpCache-beschleunigen/article/241). Diese Option wirst du im Normalfall nie gebrauchen.
+**OP Cache leeren**: WordPress basiert größtenteils auf PHP. Mit aktivierten OP Cache müssen PHP Anfragen nicht jedes Mal neu gestartet werden, sondern können zwischengespeichert werden. Weitere Informationen zu OP Cache findest du auf du im Wiki von [Variomedia](https://www.variomedia.de/faq/Wie-kann-ich-PHP-mittels-OpCache-beschleunigen/article/241). Diese Option wirst du im Normalfall nie gebrauchen.
 
 **Kritisches CSS neu generieren**: Sollte nach grafischen Änderungen am Theme oder nach Änderungen in .css Files verwendet werden.
 
 ### Cache
 
-Aktiviere den Cache bitte nur, wenn dein Webhosting keine integrierte Lösung fürs Caching verwendet. Einige Wordpress-Hostings (ich empfehle [Raidboxes.io](https://raidboxes.io/free-wordpress-migration/?aid=68271)) haben die Möglichkeit den Cache serverseitig auszuliefern. Die effektivere Möglichkeit, da das Hosting die Ressourcen entsprechend aufteilen kann. Viele Wordpress-Hostings sind deswegen inkompatibel mit Caching Plugins wie WP-Rocket.
+Aktiviere den Cache bitte nur, wenn dein Webhosting keine integrierte Lösung fürs Caching verwendet. Einige WordPress-Hostings *(ich empfehle [Raidboxes.io](https://raidboxes.io/free-wordpress-migration/?aid=68271))* haben die Möglichkeit den Cache serverseitig auszuliefern. Die effektivere Möglichkeit, da das Hosting die Ressourcen entsprechend aufteilen kann. Viele WordPress-Hostings sind deswegen inkompatibel mit Caching Plugins wie WP-Rocket.
 
-WP-Rocket nimmt hier eine Sonderrolle ein und ist mit einigen Premium-Wordpress-Hostings kompatibel. Aber mit Einschränkungen, [siehe Dokumentation](https://docs.wp-rocket.me/article/670-hosting-compatibility).
+WP-Rocket nimmt hier eine Sonderrolle ein und ist mit einigen Premium-WordPress-Hostings kompatibel. Aber mit Einschränkungen, [siehe Dokumentation](https://docs.wp-rocket.me/article/670-hosting-compatibility).
 
 <Image src={ImgSix} alt="Optimale WP-Rocket Cache Einstellungen" />
 
-**Caching für mobile Geräte**: Aktiviert Caching auch für Mobilgeräte um die Ladezeiten für diese Geräte ebenfalls zu verringern. Zudem werden separate Caching Dateien für Mobilgeräte erstellt. Ein separater Cache für Mobilgeräte sollte nicht aktiviert sein!
+**Caching für mobile Geräte**: Aktiviert Caching auch für Mobilgeräte, um die Ladezeiten für diese Geräte ebenfalls zu verringern. Zudem werden separate Caching Dateien für Mobilgeräte erstellt. Ein separater Cache für Mobilgeräte sollte nicht aktiviert sein!
 
-**Personalisierter Cache:** Sollte nur aktiviert werden, wenn Besucher die Möglichkeit haben, sich auf deiner Webseite einzuloggen. Das ist der Fall wenn Plugins wie WooCommerce oder BBpress zum Einsatz kommen. Administratoren zählen nicht zu dieser Gruppe.
+**Personalisierter Cache:** Sollte nur aktiviert werden, wenn Besucher die Möglichkeit haben, sich auf deiner Webseite einzuloggen. Das ist der Fall, wenn Plugins wie WooCommerce oder BBpress zum Einsatz kommen. Administratoren zählen nicht zu dieser Gruppe.
 
-**Cache Dauer**: Legt fest in welchem Intervall der Cache deiner Seite gelöscht wird. Die Standard-Einstellung kann belassen werden.
+**Cache Dauer**: Legt fest, in welchem Intervall der Cache deiner Seite gelöscht wird. Die Standard-Einstellung kann belassen werden.
 
 ### Dateioptimierung
 
@@ -114,88 +114,88 @@ Sollte eine der Optionen das Layout deiner Webseite zerschießen, kehre zurück 
 
 <Image src={ImgSeven} alt="Optimale WP-Rocket Einstellungen Dateioptimierung" />
 
-**CSS minifizieren**: Mit Minifizierung ist die Komprimierung dieser Dateien gemeint. Dabei werden unnötige Zeilen, Leerzeichen oder Kommentare aus dem Code entfernt. Allerdings kann es beim Zusammenrücken des Codes zu Darstellungsfehlern kommen. Diese Punkte geben den größten Geschwindigkeitsboost für Besucher und eure Pagespeed Insights Werte. 
+**CSS minifizieren**: Mit Minifizierung ist die Komprimierung dieser Dateien gemeint. Dabei werden unnötige Zeilen, Leerzeichen oder Kommentare aus dem Code entfernt. Allerdings kann es beim Zusammenrücken des Codes zu Darstellungsfehlern kommen. Diese Punkte geben den größten Geschwindigkeitsboost für Besucher und eure Pagespeed-Insights Werte. 
 
-**CSS Ausnahmen**: Stellst du fest, das nach Aktivierung der CSS Minifizierung zu Darstellungsfehlern auf der Webseite kommt, so kannst du die Dateien aus dem Plugin für die Minifizierung ausschließen.
+**CSS Ausnahmen**: Stellst du fest, dass nach Aktivierung der CSS Minifizierung zu Darstellungsfehlern auf der Webseite kommt, so kannst du die Dateien aus dem Plugin für die Minifizierung ausschließen.
 
 ```txt
 // Beispiel: Schließt alle CSS Dateien vom Borlabs Cookie Banner aus.
 /wp-content/cache/borlabs-cookie/(.*).css
 ```
 
-**CSS Darstellung optimieren**: Ist diese Option aktiviert, wird CSS asynchron erstellt & geladen. WP-Rocket wird den ersten Eintrag jeder Wordpress Taxonomy (*Beiträge, Kategorien etc.*) laden und für das kritische CSS für diesen Bereich erstellen, welcher wiederum dem Besucher oder dem Cache Preloader zur Verfügung gestellt wird. 
+**CSS Darstellung optimieren**: Ist diese Option aktiviert, wird CSS asynchron erstellt & geladen. WP-Rocket wird den ersten Eintrag jeder WordPress Taxonomy (*Beiträge, Kategorien etc.*) laden und für das kritische CSS für diesen Bereich erstellen, welcher wiederum dem Besucher oder dem Cache Preloader zur Verfügung gestellt wird. 
 
-**CSS & Javascript zusammenfassen**: Kombiniert CSS Dateien & Anfragen, sowie Javascript Dateien und Anfragen in eine einzelne Datei. Dabei kommt es sehr häufig zu Darstellungsfehlern, überprüfe deine Webseite also auf mögliche Fehler.
+**CSS & Javascript zusammenfassen**: Kombiniert CSS Dateien & Anfragen, sowie Javascript Dateien und Anfragen in eine einzelne Datei. Dabei können Darstellungsfehler erzeugt werden, überprüfe deine Webseite also auf mögliche Fehler.
 
 **Javascript minifizieren**: Minifiziert Javascript Dateien. Dabei werden unnötige Zeilen, Leerzeichen oder Kommentare aus dem Code entfernt. Allerdings kann es beim Zusammenrücken des Codes zu Darstellungsfehlern kommen.
  
-**JavaScript zusammenfassen**: Kombiniert internes, externes und inline JS, um HTTP-Anfragen zu verringern.** Sollte nicht aktiviert werden, wenn deine Webseite HTTP-2 unterstützt. Mit [KeyCDN](https://tools.keycdn.com/http2-test) kannst du prüfen, ob das auf deine Webseite zutrifft.
+**JavaScript zusammenfassen**: Kombiniert internes, externes und  Inline Javascript, um HTTP-Anfragen zu verringern.** Sollte nicht aktiviert werden, wenn deine Webseite HTTP-2 unterstützt. Mit [KeyCDN](https://tools.keycdn.com/http2-test) kannst du prüfen, ob das auf deine Webseite zutrifft.
 
-**Javascript verzögert laden**: Aus Sicht der Geschwindigkeitsoptimierung ist es das Beste, Javascript möglichst am Ende eines Ladevorgangs zu laden. Somit verzögert das Laden von Scripten nicht das Laden von Inhalten die tatsächlich zur Darstellung der Seite verwendet werden. Das ist hilfreich wenn du externe Scripte wie Bewertungs-Banner eingefügt habt. In einigen Fällen werden aber auch benötigte Javascripte verzögert, die aber wichtig zur Darstellung der Seite sind (z.B. Navigation). Prüfe daher deine Seite nach der Aktivierung dieser Funktion auf Anzeigefehler.
+**Javascript verzögert laden**: Aus Sicht der Geschwindigkeitsoptimierung ist es das Beste, Javascript möglichst am Ende eines Ladevorgangs zu laden. Somit verzögert das Laden von Scripten nicht das Laden von Inhalten, die tatsächlich zur Darstellung der Seite verwendet werden. Das ist hilfreich, wenn du externe Scripte wie Bewertungs-Banner eingefügt habt. In einigen Fällen werden aber auch benötigte Javascripte verzögert, die aber wichtig zur Darstellung der Seite sind (z.B. Navigation). Prüfe daher deine Seite nach der Aktivierung dieser Funktion auf Anzeigefehler.
 
- **Ein-Klick-Exklusionen**: WP-Rocket bietet dir die Möglichkeit, die Javascript Optimierung für populäre Dienste oder Plugins auszuschließen. Verwendest du einer der Dienste aus dem Menü, dann kannst du diese hier deaktivieren.
+ **Ein-Klick-Exklusionen**: WP-Rocket ermöglicht es dir, die Javascript-Optimierung für populäre Dienste oder Plugins auszuschließen. Verwendest du einer der Dienste aus dem Menü, dann kannst du diese hier deaktivieren.
 
- **Javascript Ausnahmen**: Stellst du fest, das nach Aktivierung der Javascript Optimierung, iFrames oder andere Plugins deiner Webseite nicht mehr funktionieren, so kannst du die Javascript Dateien oder Urls hier ausschließen.
+ **Javascript Ausnahmen**: Stellst du fest, dass nach Aktivierung der Javascript-Optimierung, iFrames oder andere Plugins deiner Webseite nicht mehr funktionieren, so kannst du die Javascript Dateien oder URLs hier ausschließen.
 
 ### Medien
 
-Dieser Bereich fokussiert sich nicht nur auf Bilder die du hochgeladen hast, sondern auch die Einbindung von Medien bereitgestellt durch Dritte. 
+Dieser Bereich fokussiert sich nicht nur auf Bilder, die du hochgeladen hast, sondern auch die Einbindung von Medien bereitgestellt durch Dritte. 
 
 <Image src={ImgEight} alt="Optimale WP-Rocket Einstellungen für Medien" />
 
-**LazyLoad**: WP-Rockets Lazy Load Feature solltest du definitiv sowohl für Bilder, als auch für iFrames & Videos aktivieren. Lazy Load bedeutet, dass Inhalte erst geladen werden, wenn sich der Darstellungsbereich des Browsers im entsprechenden Bereich befindet. Es macht keinen Sinn für einen Nutzer alle Bilder einer Webseite zu laden, wenn er nur bis zur Ende der Seite scrollen. Mit Lazy Load reduzierst du die Größe deiner Webseite am deutlichsten und trägst sogar bei, dass weniger CO2 verursacht wird. Mehr dazu in einem anderen Beitrag. 
+**Lazy Load**: WP-Rockets Lazy Load Feature solltest du definitiv sowohl für Bilder, als auch für iFrames & Videos aktivieren. Lazy Load bedeutet, dass Inhalte erst geladen werden, wenn sich der Darstellungsbereich des Browsers im entsprechenden Bereich befindet. Es macht keinen Sinn für einen Nutzer alle Bilder einer Webseite zu laden, wenn er nur bis zum Ende der Seite scrollt. Mit Lazy Load reduzierst du die Größe deiner Webseite am deutlichsten und trägst sogar bei, dass weniger CO₂ verursacht wird. Mehr dazu in einem anderen Beitrag. 
 
-**Für CSS Hintergrundbilder aktivieren**: Diese Option sollte aktiviert sein. Allerdings solltest du nach Aktivierung überprüfen ob sich die Pagespeed Werte deiner Webseite wirklich verbessert haben und die Header deiner Bilder immer noch korrekt angezeigt werden. Insbesondere bei Pagebuilder Plugins kann es zu negativen Effekten kommen.
+**Für CSS Hintergrundbilder aktivieren**: Diese Option sollte aktiviert sein. Allerdings solltest du nach Aktivierung überprüfen, ob sich die Pagespeed-Werte deiner Webseite wirklich verbessert haben und die Header deiner Bilder immer noch korrekt angezeigt werden. Insbesondere bei Pagebuilder Plugins kann es zu negativen Effekten kommen.
 
-**Für iFrames und Video aktivieren**: Die Aktivierung verbessert Pagespeed Werte betroffener Urls deutlich. Nutzt du die iframes externer Dienste (z.B. Youtube, Immobilienrechner, Newsletterformulare) dann solltest du dennoch prüfen, ob diese immer noch in angemessener Ladezeit dargestellt werden.
+**Für iFrames und Video aktivieren**: Die Aktivierung verbessert Pagespeed Werte betroffener URLs deutlich. Nutzt du die iFrames externer Dienste (z.B. YouTube, Immobilienrechner, Newsletterformulare) dann solltest du dennoch prüfen, ob diese immer noch in angemessener Ladezeit dargestellt werden.
 
-**Bilder oder Iframe Ausnahmen**: Werden iFrames oder Bilder nicht mehr richtig dargestellt, so können diese hier von der Optimierung ausgeschlossen werden.
+**Bilder oder IFrame Ausnahmen**: Werden iFrames oder Bilder nicht mehr richtig dargestellt, so können diese hier von der Optimierung ausgeschlossen werden.
 
-**Fehlende Bildabmessungen hinzufügen**: Normalerweise sollten Bilder immer eine height oder width Angabe besitzen. Viele Themes oder Pagebuilder erfüllen diese Richtlinie nicht. Wp-Rocket ergänzt diese Angaben.
+**Fehlende Bildabmessungen hinzufügen**: Normalerweise sollten Bilder immer eine height oder width Angabe besitzen. Viele Themes oder Pagebuilder erfüllen diese Richtlinie nicht. WP-Rocket ergänzt diese Angaben.
 
 ### Cache füllen
 
 Um zu verhindern, dass jeder Nutzer den Cache erst beim Aufruf generiert, erhalten Besucher bei Aktivierung dieser Option bereits die vorbereite, gecachte Version deiner Webseite.
 
-Um auch alle Urls deiner Webseite “vorzubereiten”, muss WP-Rocket wissen wo sich deine Inhalte befinden. Dabei kann WP-Rocket auf die XML Sitemaps deiner SEO Plugins zurückgreifen. So muss WP-Rocket keinen Cronjob ausführen, der dein Webhosting beansprucht und erst alle Urls zusammensuchen muss.
+Um auch alle URLs deiner Webseite „vorzubereiten“, wissen, wo sich deine Inhalte befinden. Dabei kann WP-Rocket auf die XML Sitemaps deiner SEO Plugins zurückgreifen. So muss WP-Rocket keinen Cronjob ausführen, der dein Webhosting beansprucht und erst alle URLs zusammensuchen muss.
 
 <Image src={ImgNine} alt="Optimale WP-Rocket Einstellungen für Cache Preloading" />
 
-**Cache füllen**: Eine der wichtigsten Funktionen in unserem Plugin. Wenn du eine Sitemap verwendest (z.B. durch das [Yoast SEO Plugin](http://localhost:3000/blog/yoast-seo-tutorial)), dann speichert WP-Rocket alle Urls aus dieser Sitemap in der Datenbank und bereitet den Cache für diese Urls vor. Es können auch bestimmte Urls ausgeschlossen werden, z.B. der /warenkorb/.
+**Cache füllen**: Eine der wichtigsten Funktionen in unserem Plugin. Wenn du eine Sitemap verwendest (z.B. durch das [Yoast SEO Plugin](http://localhost:3000/blog/yoast-seo-tutorial)), dann speichert WP-Rocket alle URLs aus dieser Sitemap in der Datenbank und bereitet den Cache für diese URls vor. Es können auch bestimmte URLs ausgeschlossen werden, z.B. der /warenkorb/.
 
-**Links vorladen**: WP-Rocket kann auch alle Links auf deiner Webseite vorladen. Damit wird eine Url im Browser des Besuchers bereits geladen, wenn sich sein Mauszeiger über dem Link befindet.
+**Links vorladen**: WP-Rocket kann auch alle Links auf deiner Webseite vorladen. Damit wird eine URL im Browser des Besuchers bereits geladen, wenn sich sein Mauszeiger über dem Link befindet.
 
-**DNS-Prefetch**: Bindest du Inhalte oder Scripte von Dritten (z.B. Cloudflare, Youtube Videos, Google Analytics, Share Buttons) ein, dann müssen diese Inhalte normalerweise erst von der anderen Domain geladen werden. WP-Rocket ermöglicht es, den Browser anzuweisen, schon im Vorfeld eine Verbindung zu diesen Domains herzustellen. 
+**DNS-Prefetch**: Bindest du Inhalte oder Scripte von Dritten (z.B. Cloudflare, YouTube-Videos, Google Analytics, Share Buttons) ein, dann müssen diese Inhalte normalerweise erst von der anderen Domain geladen werden. WP-Rocket ermöglicht es, den Browser anzuweisen, schon im Vorfeld eine Verbindung zu diesen Domains herzustellen. 
 
 Dieses Vorausladen kann die Antwortzeiten deutlich reduzieren. Das setzt allerdings voraus, dass du weißt, welche Inhalte du von anderen Domains beziehst.
 
-Anbei eine Liste vom Nutzer lukecav auf [github](https://gist.github.com/lukecav/9931c3f6e402e23f58065d6b2665ef5b#file-dns-prefetch-domains) mit Domains, die du vorausladen kannst.
+Anbei eine Liste vom Nutzer lukecav auf [GitHub](https://gist.github.com/lukecav/9931c3f6e402e23f58065d6b2665ef5b#file-dns-prefetch-domains) mit Domains, die du vorausladen kannst.
 
-Erkennst du einen Dienst wieder, den du verwendest, so musst diese Domain nur noch bei Wp-Rocket einfügen.
+Erkennst du einen Dienst wieder, den du verwendest, so musst diese Domain nur noch bei WP-Rocket  einfügen.
 
-**Fonts vorladen**: Wir können den Browser ebenfalls darüber benachrichtigen, wo die Schriftarten unserer Webseite gespeichert sind, so dass diese schneller geladen werden können. Meist befinden sich Schriftarten im folgenden FTP Pfad deines Themes:
+**Fonts vorladen**: Wir können den Browser ebenfalls darüber benachrichtigen, wo die Schriftarten unserer Webseite gespeichert sind, sodass diese schneller geladen werden können. Meist befinden sich Schriftarten im folgenden FTP Pfad deines Themes:
 
 ```txt
 /wp-content/themes/dein-theme/fonts/
 /wp-content/themes/dein-theme/assets/fonts/
 ```
 
-*Tipp*: In Europa ist es aufgrund der DSGVO empfohlen, [Schriftarten lokal zu hosten](https://www.netz-gaenger.de/blog/wordpress-tutorials/google-fonts-richtig-in-wordpress-einbauen/). Mit dem Dienst [ccm19](https://www.ccm19.de/en/google-fonts-checker/#:~:text=A%20Google%20Font%20Checker%20is,files%20and%20links%20are%20examined.) kannst du prüfen ob deine Webseite Google Fonts lokal speichert. Verzichte zudem darauf mehrere Schriftarten auf deiner Webseite zu verwenden. Jede Anfrage weniger bedeutet mehr Geschwindigkeit. 
+*Tipp*: In Europa ist es aufgrund der DSGVO empfohlen, [Schriftarten lokal zu hosten](https://www.netz-gaenger.de/blog/wordpress-tutorials/google-fonts-richtig-in-wordpress-einbauen/). Mit dem Dienst [ccm19](https://www.ccm19.de/en/google-fonts-checker/#:~:text=A%20Google%20Font%20Checker%20is,files%20and%20links%20are%20examined.) kannst du prüfen, ob deine Webseite Google Fonts lokal speichert. Verzichte zudem darauf, mehrere Schriftarten auf deiner Webseite zu verwenden. Jede Anfrage weniger bedeutet mehr Geschwindigkeit. 
 
 
 ### Erweiterte Regeln
 
-Die erweiterten Einstellungen sind fast ausschließlich für Developer oder eCommerce Webseiten wichtig. In diesem Menü kannst du Seiten die sensible Daten behandeln (Login / Logout / Bestellübersichten), vom Caching ausschließen.
+Die erweiterten Einstellungen sind fast ausschließlich für Developer oder E-Commerce Webseiten wichtig. In diesem Menü kannst du Seiten, die sensible Daten behandeln (Log-in / Log-out / Bestellübersichten), vom Caching ausschließen.
 
-Ebenfalls vom Caching ausgeschlossen werden, sollten Bestellprozesse oder Warenkörbe. Wp-Rocket ist zwar mit einigen Shopsystem wie (“WooCommerce”) kompatibel, aber das gilt nicht für alle Systeme. So gibt es keine beispielsweise keine Integration für “wpShop Germany”.
+Ebenfalls vom Caching ausgeschlossen werden, sollten Bestellprozesse oder Warenkörbe. WP-Rocket ist zwar mit einigen Shopsystem wie (“WooCommerce”) kompatibel, aber das gilt nicht für alle Systeme. So gibt es beispielsweise keine Integration für “wpShop Germany”.
 
 <Image src={ImgEleven} alt="Wp-Rocket optimale erweiterte Einstellungen" />
 
-**Nie cachen (URLs)**: Wie oben bereits beschrieben, solltest du hier Urls eintragen, die sensible Daten verwalten oder Teil eines Bestellprozesses sind. Caching würde bei solchen Urls zu unerwarteten Problemen führen.
+**Nie cachen (URLs)**: Wie oben bereits beschrieben, solltest du hier URLs eintragen, die sensible Daten verwalten oder Teil eines Bestellprozesses sind. Caching würde bei solchen URLs zu unerwarteten Problemen führen.
 
-Tipp: Du kannst alle Suburls eines Eintrages mit einem Eintrag zusammenfassen.
+**Tipp:** Du kannst alle Sub-Pfade einer URL mit einem Eintrag zusammenfassen.
 
-Statt alle Urls einzeln einzutragen:
+Statt alle URLs einzeln einzutragen:
 
 ```txt 
 beispiel.de/warenkorb/
@@ -203,41 +203,45 @@ beispiel.de/warenkorb/bestelluebersicht/
 beispiel.de/warenkorb/bestellbestaetigung/
 ```
 
-...könntest du alle Urls mit der Regex Anweisung (.*) zusammenfassen.
+... könntest du alle URLs mit einer Regex Anweisung (.*) zusammenfassen.
 
 ```txt 
 /warenkorb/(.*)
 ```
 
-**Nie cachen (Cookies)**: Zudem möchtest du manchmal bestimmte Cookies vom Caching ausschließen. Das ist meistens dann der Fall, wenn du Bestellprozesse auf deiner Seite laufen lässt. Hier findest du beispielsweise die [WooCommerce Cookies](https://docs.woocommerce.com/document/woocommerce-cookies/) die vom Caching ausgeschlossen werden sollten.
+**Nie cachen (Cookies)**: Zudem möchtest du manchmal bestimmte Cookies vom Caching ausschließen. Das ist meistens dann der Fall, wenn Bestellprozesse auf deiner Seite existieren. Hier trägst du die [WooCommerce Cookies](https://docs.woocommerce.com/document/woocommerce-cookies/) die vom Caching ausgeschlossen werden sollten.
 
-**Nie cachen (User Agents)**: Hier kannst du Crawler (User Agents) vom Caching ausschließen. Nur empfohlen, wenn du weißt was du tust. 
+**Nie cachen (User Agents)**: Hier kannst du Crawler (User Agents) vom Caching ausschließen. Nur empfohlen, wenn du weißt, was du tust. 
 
-**Immer löschen (Urls)**: Möchtest du, dass der Cache bestimmter Urls immer dann gelöscht wird, wenn du einen neuen Beitrag veröffentlichst, dann kannst du diese Urls hier eintragen.
+**Immer löschen (URLs)**: Möchtest du, dass der Cache bestimmter URLs immer dann gelöscht wird, wenn du einen neuen Beitrag veröffentlichst, dann kannst du diese URLs hier eintragen.
 
-**Cache für Query Strings**: [WP-Rocket cached keine Seiten die Query Strings verwenden](https://docs.wp-rocket.me/article/971-caching-query-strings). Das ist beispielsweise bei Suchenergebnissen oder Shopfiltern der Fall. Hier kannst du Urls eintragen, die dennoch gecached werden sollen. Die meisten Wordpress-Webseiten müssen hier nichts unternehmen. 
+**Cache für Query Strings**: [WP-Rocket cached keine Seiten, die Query Strings verwenden](https://docs.wp-rocket.me/article/971-caching-query-strings). Das ist beispielsweise bei SSuchergebnissen oder Filtern (*aufsteigend, absteigend*) auf Shopseiten der Fall. Hier kannst du URLs eintragen, die dennoch gecached werden sollen. Die meisten WordPress-Webseiten müssen hier nichts unternehmen. 
 
 ### Datenbank
 
-Im Laufe der Zeit sammeln sich in der Wordpress einige Tabellen & Einträge an, die dort nicht mehr hingehören. Beispielsweise dann, wenn Ihr Plugins deinstalliert habt, diese aber Ihre Einträge in der Datenbank hinterlassen haben. WP-Rocket hilft dir solche Einträge regelmäßig und automatisiert zu bereinigen.
+Im Laufe der Zeit sammeln sich in der WordPress einige Tabellen & Einträge an, die dort nicht mehr hingehören. Beispielsweise dann, wenn Ihr Plugins deinstalliert habt, diese aber Ihre Einträge in der Datenbank hinterlassen haben. WP-Rocket hilft dir, solche Einträge regelmäßig und automatisiert zu bereinigen.
 
 <Image src={ImgTen} alt="Optimale WP-Rocket Einstellungen für die Datenbank" />
 
-**Beiträge bereinigen**: Jedes Mal wenn du einen Beitrag oder eine Seite editierst, dann wird eine Version des alten Beitrages als Revision in deiner Datenbank gespeichert. Diese Revisionen werden aber in den seltensten Fällen erneut benötigt. Und gerade Pagebuilder neigen dazu, jeden kleine Veränderung als Revision zwischenzuspeichern, so dass ein Beitrag schnell mehr als 100 Revisionen aufzuweisen hat. Du kannst diese hiermit regelmäßig entfernen und Speicherplatz in deiner Datenbank freimachen.
+**Beiträge bereinigen**: Jedes Mal, wenn du einen Beitrag oder eine Seite editierst, dann wird eine Version des alten Beitrages als Revision in deiner Datenbank gespeichert. Diese Revisionen werden aber in den seltensten Fällen erneut benötigt. Und gerade Pagebuilder neigen dazu, jede noch so kleine Änderung als Revision zwischenzuspeichern, sodass ein Beitrag schnell mehr als 100 Revisionen aufzuweisen hat. Du kannst diese hiermit regelmäßig entfernen und Speicherplatz in deiner Datenbank freimachen.
 
 Lediglich die Entwürfe möchten wir behalten, für den Fall, dass wir einen Beitrag doch nicht fertigstellen können.
 
-**Kommentare bereinigen**: Auch Kommentare die in den Papierkorb gewandert sind, bzw. als Spam deklariert wurden haben dauerhaft nichts in unserer Datenbank verloren.
+**Kommentare bereinigen**: Auch Kommentare, die in den Papierkorb gewandert bzw. als Spam deklariert sind, haben dauerhaft nichts in unserer Datenbank verloren.
 
-**Transients bereinigen**: Ich zitiere das Wp-Rocket Plugin: “Transients sind zeitlich begrenzte Optionen; sie können problemlos gelöscht werden. Sobald deine Plugins sie benötigen, werden sie automatisch erneut generiert.” Also weg damit.
+**Transients bereinigen**: Ich zitiere das  WP-Rocket Plugin: 
+
+> “Transients sind zeitlich begrenzte Optionen; sie können problemlos gelöscht werden. 
+> Sobald deine Plugins sie benötigen, werden sie automatisch erneut generiert.” 
+> Also weg damit.
 
 **Datenbank bereinigen**: Bei der Deinstallation von Plugin kommt es häufig dazu, dass Einstellungen oder Einträge weiterhin in der Datenbank gespeichert sind. Diese werden mit dieser Option entfernt.
 
-**Automatische Bereinigung**: Die Bereinigung der Datenbank können wir mit Wp-Rocket automatisieren. Dabei haben wir die Wahl zwischen der täglichen, wöchentlichen und monatlichen Durchführung. Hast du einen aktiven Blog dann kannst du die Datenbank wöchentlich bereinigen. Gibt es nur selten Veränderungen auf deiner Domain, dann reicht die monatliche Optimierung ebenfalls aus.
+**Automatische Bereinigung**: Die Bereinigung der Datenbank können wir mit WP-Rocket automatisieren. Dabei haben wir die Wahl zwischen der täglichen, wöchentlichen und monatlichen Durchführung. Hast du einen aktiven Blog, dann kannst du die Datenbank wöchentlich bereinigen. Gibt es nur selten Veränderungen auf deiner Domain, dann reicht die monatliche Optimierung ebenfalls aus.
 
 ### CDN
 
-Immer wenn jemand deine Webseite aufruft, dann muss die Anfrage eine geografische Distanz zurücklegen, bis diese deinen Server erreicht. Das wird spätestens dann zu einem Problem, wenn du deine Webseite mehrsprachig anbietest. Denn so eine Anfrage muss eine ganz schön weite Strecke zurücklegen, bis Sie deinen Server in Deutschland erreicht. 
+Immer wenn jemand deine Webseite aufruft, dann muss die Anfrage eine geografische Distanz zurücklegen, bis diese deinen Server erreicht. Das wird spätestens dann zu einem Problem, wenn du deine Webseite mehrsprachig anbietest. Denn, so eine Anfrage muss eine ganz schön weite Strecke zurücklegen, bis sie deinen Server in Deutschland erreicht. 
 
 Hier hilft dir ein CDN (**Content Delivery Network**). Dann wird deine Webseite auf Servern in der ganzen Welt zwischengespeichert und die Distanz zum nächsten Server verkürzt. Ein CDN ist daher meist kostenpflichtig.
 
@@ -245,53 +249,51 @@ Ein CDN kann aber auch bei der Geschwindigkeitsoptimierung deiner Webseite helfe
 
 <Image src={ImgTwelve} alt="Wp-Rocket CDN Einstellungen" />
 
-**Rocket CDN (optional)**: [Rocket CDN kostet 8,99€ monatlich](https://go.wp-rocket.me/rocket-cdn). Nach dem Kauf wird der Dienst automatisch im Wp-Rocket Plugin hinterlegt und konfiguriert. Der CDN basiert auf StackPath.
+**Rocket CDN (optional)**: [Rocket CDN kostet 8,99 € monatlich](https://go.wp-rocket.me/rocket-cdn). Nach dem Kauf wird der Dienst automatisch im Wp-Rocket Plugin hinterlegt und konfiguriert. Der CDN basiert auf StackPath.
 
-*Tipp:* CDN Dienste vergleichen lohnt sich. Es gibt Lösungen die deutlich günstiger als Rocket CDN sind und gleichzeitig mehr Funktionalität bieten. [bunny.net](https://bunny.net/) beispielsweise, hat laut [cdnperf.com](https://cdnperf.com/) bessere Ladezeiten, Funktionen und kostet mit 0,01€ pro GB deutlich weniger.
+*Tipp:* CDN Dienste vergleichen lohnt sich. Es gibt Lösungen, die deutlich günstiger als Rocket CDN sind und gleichzeitig mehr Funktionalität bieten. [bunny.net](https://bunny.net/) beispielsweise, hat laut [cdnperf.com](https://cdnperf.com/) bessere Ladezeiten, Funktionen und kostet mit 0,01 € pro GB deutlich weniger.
 
 **Content-Delivery-Network aktivieren**: Nutzt du einen CDN-Dienst, dann muss dieser hier eingetragen werden.
 
-**Dateien vom CDN ausschließen**: Hier kannst du Plugins oder Dateien vom CDN ausschließen. Damit werden diese von deinem Webhosting geladen. In den meiste Fällen wird diese Option nicht benötigt.
+**Dateien vom CDN ausschließen**: Hier kannst du Plugins oder Dateien vom CDN ausschließen. Damit werden diese von deinem Webhosting geladen. In den meisten Fällen wird diese Option nicht benötigt.
 
 ### Heartbeat
 
-Heartbeat Control ersetzt das Plugin aus dem Wordpress Verzeichnis. 
+Heartbeat Control ersetzt das gleiche Plugin aus dem WordPress Verzeichnis. 
 
 Ich zitiere WP-Rocket:
 
-> “Wenn Sie Ihren WordPress-Administrator gewöhnlich für längere Zeit offen lassen (z.B. wenn Sie Beiträge schreiben oder bearbeiten), stapeln sich die AJAX-Anfragen von der API und erzeugen eine hohe CPU Last, was zu Problemen bei der Serverleistung führen kann.”
+> „Wenn Sie Ihren WordPress-Administrator gewöhnlich für längere Zeit offen lassen (z.B. wenn Sie Beiträge schreiben oder bearbeiten), stapeln sich die AJAX-Anfragen von der API und erzeugen eine hohe CPU-Last, was zu Problemen bei der Serverleistung führen kann.“
 > Quelle: [https://wordpress.org/plugins/heartbeat-control](https://wordpress.org/plugins/heartbeat-control)
 
-Heartbeat reduziert diese Anfragen. Davon profitieren insbesondere Hostings auf langsamen Webhostings.
+Heartbeat reduziert diese Anfragen. Davon profitieren insbesondere WordPress Webseiten auf einem langsamen Webhosting.
 
 <Image src={ImgThirteen} alt="Wp-Rocket optimale Heartbeat Einstellungen" />
 
-**Control Heartbeat**: Die Heartbeat API übernimmt Routine Aufgaben in Wordpress, wie das zwischenspeichern deiner Beiträge. Außerdem erlaubt Sie Plugins in Echtzeit Statistiken darzustellen. 
+**Control Heartbeat**: Die Heartbeat API übernimmt Routineaufgaben in WordPress, wie das Zwischenspeichern deiner Beiträge. Außerdem erlaubt sie Plugins in Echtzeit Statistiken darzustellen. 
 
 Da einige deiner Plugins möglicherweise Zugriff auf die Heartbeat API benötigt und unsere Beiträge weiterhin zwischengespeichert werden sollen, empfehle ich dir, die Aktivität lediglich zu reduzieren.
 
-### Addons
+### Add-ons
 
-Addons helfen dir die Dienste von Drittanbietern mit Wp-Rocket zu kombinieren. Einige müssen lediglich aktiviert werden um zu funktionieren, während andere erst bei der Eingabe einer API aktiv werden.
+Add-ons helfen dir dabei, die Dienste von Drittanbietern mit WP-Rocket zu kombinieren. Einige müssen lediglich aktiviert werden, um zu funktionieren, während andere erst bei der Eingabe einer API aktiv werden.
 
 <Image src={ImgFourteen} alt="Wp-Rocket Addons" />
 
-
 **Varnish**: WP-Rocket ist vollständig kompatibel mit dem serverseitigen Cache von WPengine! Ist Varnish aktiviert, kannst du beide Dienste gleichzeitig verwenden.
 
-**Cloudflare**: Verwendest du zusätzlich zum Webhosting [Cloudflare](https://cloudflare.com/s) um die Ladezeiten deiner Webseite zu verbessern, dann aktiviere dieses Addon. 
+**Cloudflare**: Verwendest du zusätzlich zum Webhosting [Cloudflare](https://cloudflare.com/s), um die Ladezeiten & Sicherheit deiner Webseite zu verbessern, dann aktiviere dieses Add-on. 
 
-Cloudflare ist ein kostenloser CDN Service, der dir bei der Komprimierung deiner HTML, CSS & Javascript Dateien hilft. Ist das Cloudflare Addon in Wp-Rocket aktiviert, dann kannst du den Cloudflare Cache löschen, ohne die Webseite aufrufen zu müssen. 
+Cloudflare ist ein kostenloser CDN Service, der dir bei der Komprimierung deiner HTML, CSS & Javascript Dateien hilft. Ist das Cloudflare Add-on in WP-Rocket aktiviert, dann kannst du den Cloudflare Cache löschen, ohne die Webseite aufrufen zu müssen. 
 
-Mein Tipp: Um die beste Geschwindigkeit aus deiner WordPress Webseite herauszukitzeln, empfehle ich dir eine Kombination aus WP-Rocket und dem Dienst [Cloudflare APO](https://www.cloudflare.com/de-de/lp/pg-speed-bundle/?utm_source=google&utm_medium=cpc&utm_campaign=PAYGO_MLT_NONAT_ENG_G_Search_BG_EXP-ADD-ON-P&utm_content=apo&utm_term=cloudflare+apo&campaignid=71700000094438146&adgroupid=58700007814898272&creativeid=671282165253&&_bt=671282165253&_bk=cloudflare%20apo&_bm=e&_bn=g&_bg=136625557196&_placement=&_target=&_loc=9046581&_dv=c&awsearchcpc=1&gad=1&gclsrc=ds&gclsrc=ds). Cloudflare APO bündelt viele Dienste die bei der Reduzierung der Ladezeiten helfen. Beide Dienste sind seit Anfang 2023 miteinander kompatibel. Cloudflare APO kostet dich 5€ monatlich.
+Mein Tipp: Um die beste Geschwindigkeit aus deiner WordPress Webseite herauszukitzeln, empfehle ich dir eine Kombination aus WP-Rocket und dem Dienst [Cloudflare APO](https://www.cloudflare.com/de-de/lp/pg-speed-bundle/?utm_source=google&utm_medium=cpc&utm_campaign=PAYGO_MLT_NONAT_ENG_G_Search_BG_EXP-ADD-ON-P&utm_content=apo&utm_term=cloudflare+apo&campaignid=71700000094438146&adgroupid=58700007814898272&creativeid=671282165253&&_bt=671282165253&_bk=cloudflare%20apo&_bm=e&_bn=g&_bg=136625557196&_placement=&_target=&_loc=9046581&_dv=c&awsearchcpc=1&gad=1&gclsrc=ds&gclsrc=ds). Cloudflare APO bündelt viele Dienste, die bei der Reduzierung der Ladezeiten helfen. Sowohl WP-Rocket als auch Cloudflare APO, sind seit Anfang 2023 miteinander kompatibel. Cloudflare APO kostet dich 5 € monatlich.
 
 **Sucuri**: Verwendest du den Dienst Sucuri, dann kannst du den Sucuri Cache mit WP-Rocket synchronisieren. Bedeutet: Immer wenn der Cache auf deiner Seite geleert wird, passiert das gleiche auch bei Sucuri.
 
-
 ## Den WordPress Cache löschen
 
-Du hast es geschafft! Du hast dieses Tutorial erfolgreich abgeschlossen! Das einzige was du noch wissen musst: Über die Seitenleiste kannst du den Cache nach jeder Änderung an deiner Webseite manuell löschen. 
+Du hast es geschafft! Du hast dieses Tutorial erfolgreich abgeschlossen! Das Einzige, was du noch wissen musst: Über die Seitenleiste kannst du den Cache nach jeder Änderung an deiner Webseite manuell löschen. 
 
 <Image src={ImgFifteen} alt="Wp-Rocket Adminliste - Cloudflare Cache löschen" />
 
-Ich wünsche dir ganz viel Glück mit deiner WordPress Webseite. Vergleiche gerne deine Pagespeed Insights Werte vor und nach der Optimierung mit WP-Rocket. Ich bin mir sicher, dass du einen deutlichen Unterschied feststellen wirst.
+Ich wünsche dir ganz viel Glück mit deiner WordPress Webseite. Vergleiche gerne deine Pagespeed-Insights vor und nach der [Optimierung mit WP-Rocket](https://shareasale.com/r.cfm?b=1075949&u=1994730&m=74778&urllink=wp%2Drocket%2Eme%2Fde%2F&afftrack=). Ich bin mir sicher, dass du einen deutlichen Unterschied feststellen wirst.
