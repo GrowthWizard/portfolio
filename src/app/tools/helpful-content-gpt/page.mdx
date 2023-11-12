@@ -1,0 +1,96 @@
+import Image from 'next/image'
+import { ToolsOuterLayout } from '@/components/tools/ToolsOuterLayout'
+import { ToolsInnerLayout } from '@/components/tools/ToolsInnerLayout'
+
+import Header from '@/components/tools/helpful-content-gpt/Header'
+
+import GoogleStatement from './images/google-x-statement-helpful-content.png'
+import ExampleHelpfulContentGPTBot from './images/beispiel-ergebnis-helpful-content-gpt-bot.png'
+
+export const page = {
+  author: 'Dominik Stein',
+  date: '2023-11-09',
+  title: 'Prüfe deine Inhalte mit Helpful Content GPT',
+  description:
+    'Deine Webseite hat nach September 2023 Ihre Rankings verloren? Dann erfüllen deine Inhalte vermutlich Googles Anforderungen an hilfreiche Inhalte nicht! Dieser Chat-GPT Bot hilft dir dabei, Googles Richtlinien für hilfreiche Inhalte zu erfüllen.',
+}
+
+export const metadata = {
+  title: 'Prüfe deine Inhalte mit Helpful Content GPT',
+  description: 'Deine Webseite hat nach September 2023 Ihre Rankings verloren? Dann erfüllen deine Inhalte vermutlich Googles Anforderungen an hilfreiche Inhalte nicht! Dieser Chat-GPT Bot hilft dir dabei, Googles Richtlinien für hilfreiche Inhalte zu erfüllen.',
+}
+
+export default function HelpfulContentGPT({ children }) {
+  return (
+    <>
+    <ToolsOuterLayout>
+        <Header page={page}/>
+    <ToolsInnerLayout>
+        {children}
+    </ToolsInnerLayout>
+        </ToolsOuterLayout>
+    </>
+    );
+ 
+}
+
+## Was ist das Ziel vom Helpful Content GPT Bot?
+
+Googles Dokumentationen und Richtlinien, wie die [Search Quality Evaluator Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/de//searchqualityevaluatorguidelines.pdf), sind umfangreich und komplex, insbesondere für Webseitenbetreiber mit begrenzter SEO-Erfahrung. Der Helpful Content GPT Bot bietet nicht nur Einblicke, warum Inhalte als nicht hilfreich betrachtet werden könnten, sondern gibt auch konkrete Empfehlungen zur Verbesserung deiner Inhalte, basierend auf Googles Richtlinien.
+
+Personen mit SEO-Erfahrung hingegen, bewerten Ihre Inhalte subjektiv oft anders, als ein LLM (Language Model) es würde.
+
+Das Ziel vom Helpful-Content-GPT-Bot ist es, dir dabei zu helfen, Ideen dafür zu erhalten, warum deine Inhalte als nicht hilfreich betrachtet werden. Oder warum die Inhalte der Konkurrenz besser ranken.
+
+**Hinweis:** *Bitte beachte, dass du eine aktive ChatGPT Plus Mitgliedschaft benötigst, um den Helpful Content GPT Bot nutzen zu können.*
+
+## Wer kann vom Helpful Content GPT Bot profitieren?
+
+Der Bot ist für alle Webseitenbetreiber nützlich, die ihre Inhalte gemäß den neuesten SEO-Standards optimieren möchten. Insbesondere die Webmaster, die im **September und Oktober 2023** Ranking-Einbrüche festgestellt haben, könnten von Googles [Helpful Content Update](https://developers.google.com/search/updates/helpful-content-update?hl=de) betroffen sein. Dieses Update konzentriert sich darauf, den Nutzer in den Mittelpunkt zu stellen und sicherzustellen, dass der Zweck einer Webseite eindeutig mit der Suchintention des Nutzers übereinstimmt.
+
+Viele Inhalte die durch klassische SEO-Methoden optimiert wurden, wurden nicht immer für den Nutzer erstellt. Stattdessen haben Webseitenbetreiber nur für die Suchmaschine optimiert. Insbesondere diese Inhalte scheinen von dem Helpful Content Update betroffen zu sein. Siehe das offizielle Statement von [Google SearchLiaison auf X](https://twitter.com/searchliaison/status/1720491595420856329)*
+
+[<Image src={GoogleStatement} alt="Google Statement" />](https://twitter.com/searchliaison/status/1720491595420856329)
+
+## So erzielst du die besten Ergebnisse!
+
+Die besten Ergebnisse mit dem Helpful-Content-GPT-Bot erzielst du derzeit, wenn du 2 Texte miteinander vergleichst.
+
+> Vergleiche diese beiden Texte miteinander. 
+> Vergleiche, welcher Text Googles Richtlinien besser erfüllt und warum.
+
+Füge danach beide Texte nacheinander in den Helpful-Content-GPT-Bot ein.
+
+**Tipp:** Beachte dabei, zusätzliche Informationen wie Titel, Autoren-Box und Veröffentlichungsdatum einzubeziehen, da diese für die umfassende Bewertung deiner Webseite wichtig sind.
+
+```txt
+Hier ist der erste Text. 
+Dieser Text ist von meiner Webseite. 
+[TEXT #1 EINFÜGEN]
+
+Hier ist der zweite Text. 
+Dieser Text verfügt derzeit über bessere Rankings in den Suchergebnissen.
+[TEXT #2 EINFÜGEN]
+```
+
+Der Helpful-Content-GPT-Bot wird dir dann helfen, die Inhalte zu vergleichen und zu verstehen, warum der eine Text besser rankt als der andere.
+
+<Image src={ExampleHelpfulContentGPTBot} alt="Beispiel wie der Helpful Content GPT Bot bei der SEO-Optimierung hilft!" />
+
+<div id="changelog">
+
+## Changelog
+
+Der ChatGPT Helpful Content Bot wird ständig verbessert. Hier findest du eine Übersicht der Änderungen.
+
+```txt
+## Version 1.0.1 - 10.11.2023
+- Hinzufügen von detaillierten Informationen zu YMYL, Page Quality (PQ), Main Content (MC) und Googles Anti-Spam-Richtlinien.
+- Einführung einer Checkliste zur Bewertung von hilfreichen Inhalten.
+
+## Version 1.0.0 - 09.11.2023
+- Erste Veröffentlichung des Helpful Content Bots.
+- Einführung grundlegender Informationen zu Googles Richtlinien für hilfreiche Inhalte.
+- Informationen zum Autoren ergänzt.
+```
+</div>
