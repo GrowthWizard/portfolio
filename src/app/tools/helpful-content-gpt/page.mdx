@@ -9,15 +9,17 @@ import ExampleHelpfulContentGPTBot from './images/beispiel-ergebnis-helpful-cont
 
 export const page = {
   author: 'Dominik Stein',
-  date: '2023-11-09',
+  date: '2023-11-12',
   title: 'Prüfe deine Inhalte mit Helpful Content GPT',
-  description:
-    'Deine Webseite hat nach September 2023 Ihre Rankings verloren? Dann erfüllen deine Inhalte vermutlich Googles Anforderungen an hilfreiche Inhalte nicht! Dieser Chat-GPT Bot hilft dir dabei, Googles Richtlinien für hilfreiche Inhalte zu erfüllen.',
-}
+  description:(
+    <>
+    Deine Webseite hat nach September 2023 Ihre Rankings verloren? Dann erfüllen deine Inhalte vermutlich Googles Anforderungen an hilfreiche Inhalte nicht! Dieser Chat-GPT Bot hilft dir dabei, <a className="underline font-bold decoration-rosa" href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=de" title="Helpful Content Dokumentation">Googles Richtlinien für hilfreiche Inhalte</a>, <span className="font-bold">Page Quality (PQ)</span> und <span className="font-bold">YMYL</span> zu erfüllen.
+    </>
+)}
 
 export const metadata = {
-  title: 'Prüfe deine Inhalte mit Helpful Content GPT',
-  description: 'Deine Webseite hat nach September 2023 Ihre Rankings verloren? Dann erfüllen deine Inhalte vermutlich Googles Anforderungen an hilfreiche Inhalte nicht! Dieser Chat-GPT Bot hilft dir dabei, Googles Richtlinien für hilfreiche Inhalte zu erfüllen.',
+  title: 'Helpful-Content-GPT | Googles SEO Richtlinien verstehen',
+  description: 'Nutze die Power von ChatGPT, um deine Inhalte für Googles Helpful-Content Richtlinien zu optimieren oder mit der Konkurrenz zu vergleichen!',
 }
 
 export default function HelpfulContentGPT({ children }) {
@@ -48,7 +50,7 @@ Das Ziel vom Helpful-Content-GPT-Bot ist es, dir dabei zu helfen, Ideen dafür z
 
 Der Bot ist für alle Webseitenbetreiber nützlich, die ihre Inhalte gemäß den neuesten SEO-Standards optimieren möchten. Insbesondere die Webmaster, die im **September und Oktober 2023** Ranking-Einbrüche festgestellt haben, könnten von Googles [Helpful Content Update](https://developers.google.com/search/updates/helpful-content-update?hl=de) betroffen sein. Dieses Update konzentriert sich darauf, den Nutzer in den Mittelpunkt zu stellen und sicherzustellen, dass der Zweck einer Webseite eindeutig mit der Suchintention des Nutzers übereinstimmt.
 
-Viele Inhalte die durch klassische SEO-Methoden optimiert wurden, wurden nicht immer für den Nutzer erstellt. Stattdessen haben Webseitenbetreiber nur für die Suchmaschine optimiert. Insbesondere diese Inhalte scheinen von dem Helpful Content Update betroffen zu sein. Siehe das offizielle Statement von [Google SearchLiaison auf X](https://twitter.com/searchliaison/status/1720491595420856329)*
+Viele Inhalte, die durch klassische SEO-Methoden optimiert wurden, wurden nicht immer für den Nutzer erstellt. Stattdessen haben Webseitenbetreiber nur für die Suchmaschine optimiert. Vorwiegend diese Inhalte scheinen von dem Helpful Content Update betroffen zu sein. Siehe das offizielle Statement von [Google SearchLiaison auf X](https://twitter.com/searchliaison/status/1720491595420856329).
 
 [<Image src={GoogleStatement} alt="Google Statement" />](https://twitter.com/searchliaison/status/1720491595420856329)
 
