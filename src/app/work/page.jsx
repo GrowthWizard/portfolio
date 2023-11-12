@@ -6,6 +6,7 @@ import logoDrYun from '@/images/logos/logo-dr-yun.png'
 import logoWpToNext from '@/images/logos/logo-wp-to-next.jpeg'
 import logoSchlafapnoe from '@/images/logos/logo-schlafapnoe.png'
 import logoHormonexperten from '@/images/logos/logo-hormonexperten.png'
+import helpfulContentGPTLogo from '@/images/logos/helpful-content-gpt.png'
 import LogoLeores from '@/images/logos/logo-leores.png'
 
 const projects = [
@@ -16,6 +17,14 @@ const projects = [
     link: { href: 'https://hormonexperten.de', label: 'hormonexperten.de' },
     logo: logoHormonexperten,
     alt: "Logo hormonexperten.de",
+  },
+  {
+    name: 'Helpful Content GPT',
+    description:
+      'Ein ChatGPT-Bot, der dir hilft, Googles YMYL und Helpful-Content Richtlinien einzuhalten.',
+    link: { href: 'https://steindominik.de/tools/helpful-content-gpt', label: 'Zu den Docs' },
+    logo: helpfulContentGPTLogo,
+    alt: "Logo Helpful-Content-GPT",
   },
   {
     name: 'plastischechirurgie-frankfurt.com',
