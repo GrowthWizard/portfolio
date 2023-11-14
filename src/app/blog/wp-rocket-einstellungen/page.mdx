@@ -19,7 +19,7 @@ import ImgFifteen from './images/wprocket-cloudflare-cache-leeren.jpeg'
 
 export const article = {
   author: 'Dominik Stein',
-  date: '2023-11-10',
+  date: '2023-11-14',
   title: 'Das ultimative WP-Rocket Tutorial für 2024!',
   description:
     'WP-Rocket* ist aus nach unserer Sicht das beste Caching Plugin für WordPress. Hinsichtlich der Geschwindigkeitsoptimierung ist es zwar stets besser, den Cache durch den Server ausliefern zu lassen, aber nicht jedes Webhosting bietet diese Möglichkeit.',
@@ -74,7 +74,7 @@ Das Dashboard dient als dein persönlicher Einstieg in das Plugin. Hier findest 
 
 **Rocket Analytics**: Damit stimmst du zu, dass du WP-Rocket anonymisierte Daten bereitstellst, die zur Verbesserung des Plugins beitragen. Das hat einen minimalen Effekt auf die Ladegeschwindigkeit der Webseite. Ich empfehle dir aber, diese Option zu deaktivieren.
 
-**RocketCDN**: WP-Rocket bietet zusätzlich zum Plugin noch einen [CDN Dienst](https://shareasale.com/r.cfm?b=1840869&u=1994730&m=74778&urllink=&afftrack=) an, der zusätzlich zur Geschwindigkeit deiner Webseite beitragen soll. Der CDN wird unter eigenem Namen vertrieben, basiert aber in erster Linie auf dem Dienst StackPath. StackPath liefert nur die Dateien deiner Webseite aus. Andere CDN Dienste komprimieren diese beispielsweise noch.
+**RocketCDN**: WP-Rocket bietet zusätzlich zum Plugin noch einen [CDN Dienst](https://shareasale.com/r.cfm?b=1840869&u=1994730&m=74778&urllink=&afftrack=) an, der zusätzlich zur Geschwindigkeit deiner Webseite beitragen soll. Der CDN wird unter eigenem Namen vertrieben, basiert aber in erster Linie auf dem Dienst BunnyCDN.
 
 **Mein Tipp**: Statt die 8 € monatlich für einen CDN-Dienst auszugeben, empfehle ich dir, das Geld lieber in ein besseres Webhosting zu investieren. Ich empfehle dir [Raidboxes.io](https://raidboxes.io/free-wordpress-migration/?aid=68271).
 
@@ -175,7 +175,7 @@ Dieses Vorausladen kann die Antwortzeiten deutlich reduzieren. Das setzt allerdi
 
 Anbei eine Liste vom Nutzer lukecav auf [GitHub](https://gist.github.com/lukecav/9931c3f6e402e23f58065d6b2665ef5b#file-dns-prefetch-domains) mit Domains, die du vorausladen kannst.
 
-Erkennst du einen Dienst wieder, den du verwendest, so musst diese Domain nur noch bei WP-Rocket  einfügen.
+Erkennst du einen Dienst wieder, den du verwendest, so musst diese Domain nur noch bei WP-Rocket einfügen.
 
 **Fonts vorladen**: Wir können den Browser ebenfalls darüber benachrichtigen, wo die Schriftarten unserer Webseite gespeichert sind, sodass diese schneller geladen werden können. Meist befinden sich Schriftarten im folgenden FTP Pfad deines Themes:
 
@@ -254,9 +254,11 @@ Ein CDN kann aber auch bei der Geschwindigkeitsoptimierung deiner Webseite helfe
 
 <Image src={ImgTwelve} alt="Wp-Rocket CDN Einstellungen" />
 
-**Rocket CDN (optional)**: [Rocket CDN kostet 8,99 € monatlich](https://shareasale.com/r.cfm?b=1840869&u=1994730&m=74778&urllink=&afftrack=). Nach dem Kauf wird der Dienst automatisch im Wp-Rocket Plugin hinterlegt und konfiguriert. Der CDN basiert auf StackPath.
+**Rocket CDN (optional)**: [Rocket CDN kostet 8,99 € monatlich](https://shareasale.com/r.cfm?b=1840869&u=1994730&m=74778&urllink=&afftrack=). Nach dem Kauf wird der Dienst automatisch im Wp-Rocket Plugin hinterlegt und konfiguriert. Der CDN basiert auf dem Dienst von BunnyCDN.
 
-*Tipp:* CDN Dienste vergleichen lohnt sich. Es gibt Lösungen, die deutlich günstiger als Rocket CDN sind und gleichzeitig mehr Funktionalität bieten. [bunny.net](https://bunny.net/) beispielsweise, hat laut [cdnperf.com](https://cdnperf.com/) bessere Ladezeiten, Funktionen und kostet mit 0,01 € pro GB deutlich weniger.
+> **News vom 10.November 2023:** Rocket CDN hat den Partner für seinen CDN Dienst ausgetauscht. [Statt StackPath wird nun BunnyCDN verwendet](http://shrsl.com/4b0zb). BunnyCDN gehört zu einem der schnellsten CDN's (*Quelle: [cdnperf.com](https://cdnperf.com/)*), so dass Rocket-CDN für Speed-Enthuasiasten doch wieder interessant wird.
+
+*Tipp:* Ich empfehle dir trotzdem, CDN Dienste auf einer Seite wie [cdnperf.com](https://cdnperf.com/) zu vergleichen. Dort kannst du sehen, welcher CDN aktuell die meisten Funktionen anbietet.
 
 **Content-Delivery-Network aktivieren**: Nutzt du einen CDN-Dienst, dann muss dieser hier eingetragen werden.
 
