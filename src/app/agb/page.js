@@ -218,7 +218,7 @@ export default async function AGB() {
               dieser AGB haben Dauerschuldverhältnisse (z.B. Wartungsverträge)
               eine Mindestlaufzeit von 3 Monaten. Die Kündigungsfrist beträgt 1
               Monat . Wird der Vertrag nicht fristgerecht zum Laufzeitende
-              gekündigt, verlängert er sich automatisch um weitere 6 Monate.
+              gekündigt, verlängert er sich automatisch um weitere 3 Monate.
             </p>
             <p>
               Das Recht zur außerordentlichen Kündigung aus wichtigem Grund

@@ -1,6 +1,9 @@
 {
-  "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/blog/wp-rocket-einstellungen/page": "app/blog/wp-rocket-einstellungen/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/webdesign/page": "app/webdesign/page.js",
+  "/ueber/page": "app/ueber/page.js",
+  "/work/page": "app/work/page.js",
+  "/seo/page": "app/seo/page.js",
+  "/blog/page": "app/blog/page.js"
 }
