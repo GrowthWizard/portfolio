@@ -717,7 +717,7 @@ export default async function AGB() {
             </p>
           </div>
           <p>
-            <strong>Stand:</strong> 01.06.2023
+            <strong>Stand:</strong> 01.09.2024
           </p>
         </div>
       </SimpleLayout>
