@@ -30,8 +30,8 @@ export default async function AGB() {
             {' '}
             <br />
             Dominik Stein (steindominik.de)<br />
-            Utrechter Str. 44<br />
-            13347 Berlin<br />
+            Pflugstr. 13<br />
+            10115 Berlin<br />
             Deutschland<br />
         </p>
           <p>nachfolgend: Anbieter</p>
@@ -717,7 +717,7 @@ export default async function AGB() {
             </p>
           </div>
           <p>
-            <strong>Stand:</strong> 01.09.2024
+            <strong>Stand:</strong> 01.10.2024
           </p>
         </div>
       </SimpleLayout>

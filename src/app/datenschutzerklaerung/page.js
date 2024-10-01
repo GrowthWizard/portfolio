@@ -26,8 +26,8 @@ export default async function Datenschutzerklaerung() {
           Unternehmen ist verantwortlich:
         </p>
         <p>steindominik.de<br />
-            Utrechter Str. 44<br />
-            13347 Berlin<br />
+            Pflugstr. 13<br />
+            10115 Berlin<br />
             Deutschland</p>
         <p>Telefon: +4915678554040</p>
         <p>E-Mail: hello@steindominik.de</p>

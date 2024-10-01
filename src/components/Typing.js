@@ -33,7 +33,7 @@ class Typing extends React.Component {
     render() {
       return (
           <span
-            className="whitespace-pre"
+            className="whitespace-pre text-[#bd93f2]"
             ref={(el) => {
               this.el = el;
             }}

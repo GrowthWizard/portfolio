@@ -17,9 +17,9 @@ export default async function Impressum() {
         <p>
           steindominik.de
           <br />
-          Utrechter Str. 44
+          Pflugstr. 13
           <br />
-          13347 Berlin
+          10115 Berlin
           <br />
           Deutschland
         </p>
@@ -38,9 +38,9 @@ export default async function Impressum() {
             <br />
             steindominik.de
             <br />
-            Utrechter Str. 44
+            Pflugstr. 13
             <br />
-            13347 Berlin
+            10115 Berlin
             <br />
             Deutschland
           </p>
